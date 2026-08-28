@@ -129,13 +129,13 @@ darktrace-nexus/
 ## Team
 
 | Role | Responsibility |
-|------|---------------|
-| Member 1 | Frontend Dashboard & UI |
-| Member 2 | Backend API & Services |
-| Member 3 | ML Pipeline & Analysis |
-| Member 4 | Database & Infrastructure |
-| Member 5 | Security & Authentication |
-| Member 6 | Testing & Deployment |
+|------|----------------|
+| D. PARDHIV | Dark Web / OSINT Intelligence |
+| B. SREE KRISHNA GOWTHAM | Team Lead & System Architect |
+| P. YUGANDHAR | AI/ML & Behavioral Analysis |
+| C. SEETHA RAMADEVI | Frontend, Backend & Visualization |
+| KVS. ANMOL | Graph Analytics & Data Engineering |
+| A. SIRICHANDANA | Cyber Threat Intelligence & Attribution |
 
 ---
 
