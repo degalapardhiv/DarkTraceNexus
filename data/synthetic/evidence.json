@@ -1,0 +1,4691 @@
+[
+  {
+    "id": 1,
+    "actor_id": 1,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'shadow_x' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "76953c0b39ba99eb602ae5de559a6c907d1404483282b1eaa254a24e01888a1a"
+  },
+  {
+    "id": 2,
+    "actor_id": 1,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'nightmarket' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "202b4e287369e3ae09d178a66842acc8ecc3214dc00c1d4431c1ff064612f7ce"
+  },
+  {
+    "id": 3,
+    "actor_id": 1,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'zero_fox' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "a6ea0345890ae8b7e34bb7665ec8dcf32f6dc9749e2b957e4bced8c6b11409cf"
+  },
+  {
+    "id": 4,
+    "actor_id": 1,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'phantom_buyer' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "1839ebdafbaa47374728a3ac92bef05263acdd384c68a1db102abd276f882c47"
+  },
+  {
+    "id": 5,
+    "actor_id": 1,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'alpha_trader' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "35077e603552e33c0ebeb5631c2d37c897a51343275e37d0084013fafdf9874b"
+  },
+  {
+    "id": 6,
+    "actor_id": 1,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 8D2F129A31E39969... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "76e811a483e79316de844381697ae90098ef6311d4c0c2ab6c270c03ab6048e0"
+  },
+  {
+    "id": 7,
+    "actor_id": 1,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3Nwy3MgfMZsykvEA... (XMR, balance: 1.4512) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "48cb4a2463b3b50c48bfeff91e375b4aef501074802f9180efec537d9935353b"
+  },
+  {
+    "id": 8,
+    "actor_id": 1,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3fojqvyXubf5RsBG... (BTC, balance: 31.0668) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "cead5ed722a253e65c37f057179380d898fd5356264b6182a961ee41bf128078"
+  },
+  {
+    "id": 9,
+    "actor_id": 1,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegagate.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "c22041c85832bd531974db8422a05dcac0045266c1fe861bef84c645300c6fc3"
+  },
+  {
+    "id": 10,
+    "actor_id": 1,
+    "evidence_type": "domain_observed",
+    "description": "Domain cyberrelay.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "bab56579c7723dd494851d2a2844a5c1425cca06ace33b72a861d6c107c41c54"
+  },
+  {
+    "id": 11,
+    "actor_id": 1,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowlink.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "4c631be7a9eabaf0d7bfde77d9b610083dfed87f004bfa8d9b5b31a517090a14"
+  },
+  {
+    "id": 12,
+    "actor_id": 2,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'darkwolf' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "9f2b6afb393d3ac0c4b13018d23540d770a89d08e0bd992f9d55c35a9e40ff73"
+  },
+  {
+    "id": 13,
+    "actor_id": 2,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'phantom_store' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "c7e704c659f881132960c5f65f82d779da09456b99ca592970edc677d0bf3056"
+  },
+  {
+    "id": 14,
+    "actor_id": 2,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'phantom_buyer' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "018fa0f091eb9f6b2a2875fe3fdf2ca07cc16905d8f3c74e630589b8bc2c6ae4"
+  },
+  {
+    "id": 15,
+    "actor_id": 2,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'night_trader' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "3a4386932a9f00193f51c1c59f8440cf30511f192742c01402745aca94ee85fe"
+  },
+  {
+    "id": 16,
+    "actor_id": 2,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'wolf_alpha' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "0c9208cff999d068abfe0265bed724c37cc3569bc169a73c5a617aba41e1a8ce"
+  },
+  {
+    "id": 17,
+    "actor_id": 2,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 8D2F129A31E39969... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "394870237068f3dd540f4c371fd960ceb356fa454f44eeccbd7ceb163d26f7f0"
+  },
+  {
+    "id": 18,
+    "actor_id": 2,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 1B7CBA7C13B49786... (RSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "5598b53b94cd5234cc68a361d42adfd59e514c24e74bd7f0a2fbf7fc92bae408"
+  },
+  {
+    "id": 19,
+    "actor_id": 2,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key B2D7D97720F7D61A... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "7262251af85b8afa3a6899b53573e2c3789923dc0bb47c85a68adfcc9eb9a618"
+  },
+  {
+    "id": 20,
+    "actor_id": 2,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3Nwy3MgfMZsykvEA... (BTC, balance: 30.1857) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "0674940daf5e0dffeda329ca947ce702615dda48e83b2dc74097c6b4de5b1f61"
+  },
+  {
+    "id": 21,
+    "actor_id": 2,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 16xqaxzfG3kUevBa... (ETH, balance: 41.2464) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "c8e808305740bf24ffe06d4a0378a68cb2e01dd506dfca5c67d9e4e99245b654"
+  },
+  {
+    "id": 22,
+    "actor_id": 2,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegagate.onion observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "bdcd9102636ffbadba5ad25383a33ed26eba5d56b03d25e75d128fa95b264178"
+  },
+  {
+    "id": 23,
+    "actor_id": 2,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphagate.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "9ef0d3b318ba86b2540cbef77caf144c00a8caf929e262f5c4e706633b3d38ee"
+  },
+  {
+    "id": 24,
+    "actor_id": 3,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'redcipher' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "04cdbdf9e1ac01602fef16f035f2b5dc33d767787519beef9b7e221c40444a72"
+  },
+  {
+    "id": 25,
+    "actor_id": 3,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'crimsonbyte_dev' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "e72af8af29838d97c062480a880881db431bc691b1712c7a2811b2b2595a9be2"
+  },
+  {
+    "id": 26,
+    "actor_id": 3,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'cipher_master' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "0ec4863488dc2122b327a9da7e2895f296d9193b4106cfd4e66201b0ce2a3cb8"
+  },
+  {
+    "id": 27,
+    "actor_id": 3,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'red_node' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "6c5f8bc8b1e10dc9b4e633c4d59b4e2e8ee4a1623f1af099078f478a3c539b27"
+  },
+  {
+    "id": 28,
+    "actor_id": 3,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 9FA0D4AF211849B3... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "b44237c6537b677308626c27e916c834382767f0815a908bfc8fdc5173a30b9d"
+  },
+  {
+    "id": 29,
+    "actor_id": 3,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3x8xL6r6u19sy5nG... (BTC, balance: 22.1839) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "0d5f2a9781c24238bb4d8931900bd7c170bfa1e0ec2558a5ced1d598523df3bb"
+  },
+  {
+    "id": 30,
+    "actor_id": 3,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3u3oJN9XZnA5scEu... (XMR, balance: 5.3327) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "f19aaa1a7e6ae97861730486852b64628daf388fc5a3c998cedfaa68fe0bef4f"
+  },
+  {
+    "id": 31,
+    "actor_id": 3,
+    "evidence_type": "domain_observed",
+    "description": "Domain cyberhub.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "677d95b5668929b0ba9de7286f13ec8211b424739cbd81523a11c7563e5dbcaa"
+  },
+  {
+    "id": 32,
+    "actor_id": 3,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostnet.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "e4abf288bf072585107cab79256958bd62cf9ddeae0dd94900468c1e8084df81"
+  },
+  {
+    "id": 33,
+    "actor_id": 3,
+    "evidence_type": "domain_observed",
+    "description": "Domain omeganet.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "e20831583232a36da0c1644d6f56423a7fd065571ccc556e8f51b411cd5b2db5"
+  },
+  {
+    "id": 34,
+    "actor_id": 3,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostservice.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "fd20e72b2b50ebdd73b01bfba47221d619feb0da962fd4da8b5bfa6f7007b2ca"
+  },
+  {
+    "id": 35,
+    "actor_id": 3,
+    "evidence_type": "domain_observed",
+    "description": "Domain cyberservice.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "ede5c48eb33db8da2e97bc73fbcce15ff2fd6d3befbad182d110139db7c620ab"
+  },
+  {
+    "id": 36,
+    "actor_id": 4,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'nightfox' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "d20898351bdf8985c07256313acdd3498b98deed3cba61632f6b3ce623ad304c"
+  },
+  {
+    "id": 37,
+    "actor_id": 4,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'night_cipher' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "e865215151ee45584938ac47abab0828769a6ff511e5c732cf845f7cc02d5284"
+  },
+  {
+    "id": 38,
+    "actor_id": 4,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'fox_master' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "fdcbf719eb02230ae73cff23ce3df75822aa4165866bab5abc5165bd11f52d1f"
+  },
+  {
+    "id": 39,
+    "actor_id": 4,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'red_node_v2' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "4d36c772358e666ffaf04164cf0992bf8f5e2b96b346a8c72fd2eb14e112207e"
+  },
+  {
+    "id": 40,
+    "actor_id": 4,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 9FA0D4AF211849B3... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "f1905e8add886b3d93dd43a8a44a56dbf83f66fd6f286b3c7d0284275557f313"
+  },
+  {
+    "id": 41,
+    "actor_id": 4,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 13865FB89BEAD9F4... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "25f3d927f68468d3a1294c88f9638701ed40c326976d6b2ee27dc59c97fd02b6"
+  },
+  {
+    "id": 42,
+    "actor_id": 4,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1L9u1r98FBf21nEK... (XMR, balance: 42.3649) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "5eb915973251f257b8f3323a9757a1ae4de23af0e941c792004566bc55a19a0e"
+  },
+  {
+    "id": 43,
+    "actor_id": 4,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3gVu55c4GdYKzXTc... (BTC, balance: 4.5612) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "c0cdb4bbabaedab4e864fd8545de17d4322c36d6be29d7ee893cbf32a94fd12a"
+  },
+  {
+    "id": 44,
+    "actor_id": 4,
+    "evidence_type": "domain_observed",
+    "description": "Domain cyberhub.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "fb014bb720afbd668b331a4e05178449fd4871b6973267a8814a7d14f2b7bd03"
+  },
+  {
+    "id": 45,
+    "actor_id": 4,
+    "evidence_type": "domain_observed",
+    "description": "Domain phantommarket.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "fc88a80890d35663accee654f3cd2e1dfa883ad6cfc96c70273e5e474a3aaff9"
+  },
+  {
+    "id": 46,
+    "actor_id": 5,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'ghost_protocol' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "5dcce5f686a41535df75dba07bfa6f9240d0f5c94452e2fcb064d7cb2e208ca5"
+  },
+  {
+    "id": 47,
+    "actor_id": 5,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'phantom_data' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "6644e55ebef90fa4e223863e192cbba6d8f97a9c33db4e0c3ab9fb6737318eb2"
+  },
+  {
+    "id": 48,
+    "actor_id": 5,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'ghost_buyer' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "bae2df5bda970f4c8f92f9c4b630a78c80e5ee468b3c86cf25044e162d1bf9e4"
+  },
+  {
+    "id": 49,
+    "actor_id": 5,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'data_phantom' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "d27c28839e367893f4b6b1669d1579486afb442918d18876916aededeb7d2edf"
+  },
+  {
+    "id": 50,
+    "actor_id": 5,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key D5C9CDFD9A0ED42B... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "8128af8c77d735d35c4bcb47ef3795906bcc6c7c18f31cb175b2992773c7c24b"
+  },
+  {
+    "id": 51,
+    "actor_id": 5,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 63851A9843F03FCC... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "b8e6950c266f0a4946b0e2ef1a3e2cf88fb530a96a63b8a8fa918e5dde679b4d"
+  },
+  {
+    "id": 52,
+    "actor_id": 5,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1DfQH5mMWgqL2sGa... (BTC, balance: 7.5479) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "d8d33db8282b2377841243729350b316bbbe1ac317f14ee553edc44d666b42e4"
+  },
+  {
+    "id": 53,
+    "actor_id": 5,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexusrelay.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "a38439035ea83a13f0870e0717de8f910feda5535380fa5c2782667bb8ddef8b"
+  },
+  {
+    "id": 54,
+    "actor_id": 5,
+    "evidence_type": "domain_observed",
+    "description": "Domain omeganet.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "a98d0bb71e2c32fae691b4cfe36630df3a6de83f09d06a9b2cc1bd03f96768ff"
+  },
+  {
+    "id": 55,
+    "actor_id": 6,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'cyber_phantom' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "7b9fac03c611e36d1926099297feb5e335728754f8a56c87bc667e4f53b660bb"
+  },
+  {
+    "id": 56,
+    "actor_id": 6,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'phantom_net' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "643bf275b744259f8e23d904125aff713c46e7940a1de48277ac4f39c944fc18"
+  },
+  {
+    "id": 57,
+    "actor_id": 6,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'cyber_ghost' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "b4363c41dc11aab5441ef2feabe59caaa25236e38f902647b6cc150b2071aeb6"
+  },
+  {
+    "id": 58,
+    "actor_id": 6,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'phantom_data_v2' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "e08f75ab1f683612f3a7481b43617824e5fec34a49a743b2d41b37910ffb99d0"
+  },
+  {
+    "id": 59,
+    "actor_id": 6,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key A57201E5B8237782... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "a1c20349a7d739a6344a30a28398594a3abbb8ef03fa920c23b65c83806d0b88"
+  },
+  {
+    "id": 60,
+    "actor_id": 6,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key A52BFFE1A804F5C3... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "f6d83059541a32b37350c206af59713b103e50c9a24a332ce6e9ba8d97246e64"
+  },
+  {
+    "id": 61,
+    "actor_id": 6,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 84C7D5FF7468FDC2... (RSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "a91ff8369ac267aca62aca2ab9d7348a60266b578d3aadbd12d015e02f799d2d"
+  },
+  {
+    "id": 62,
+    "actor_id": 6,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1DfQH5mMWgqL2sGa... (ETH, balance: 48.7327) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "adb446aeb2d449f1981b19b0ba14f8e32cd9d156eebbfc5f9747c4e25881b2d3"
+  },
+  {
+    "id": 63,
+    "actor_id": 6,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1xYnW2s3PNkM4Ef7... (BTC, balance: 46.6685) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "d5e87f50d2e065889a6ce52308eb0a7d348b6e537dc08d9d2bfc1d4157e76d35"
+  },
+  {
+    "id": 64,
+    "actor_id": 6,
+    "evidence_type": "domain_observed",
+    "description": "Domain alpharelay.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "ac7c2a4f0dfd464cb4fa67e761cd34266de5363c566bef196549fdfdee6863a7"
+  },
+  {
+    "id": 65,
+    "actor_id": 6,
+    "evidence_type": "domain_observed",
+    "description": "Domain cyberhub.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "2375f585fe620fc68c86d9e7fae3241c6a625c3814815aa4039c90b782337078"
+  },
+  {
+    "id": 66,
+    "actor_id": 6,
+    "evidence_type": "domain_observed",
+    "description": "Domain securegate.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "d6f1d2dc923f703e75161cb7b0518ac223cf427476a879fb17fe40a4135822b4"
+  },
+  {
+    "id": 67,
+    "actor_id": 6,
+    "evidence_type": "domain_observed",
+    "description": "Domain phantomproxy.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "24d8add8258eaf7e04b69c6d16be9cc7082a85fb9a2b56228c1c9e06537eac26"
+  },
+  {
+    "id": 68,
+    "actor_id": 6,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultgate.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "e12b060684b134561e2cc6d2058bc0611bd5d2a51c782f50d8e2f34656a7e82e"
+  },
+  {
+    "id": 69,
+    "actor_id": 7,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'zer0day' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "e2704f2003817fb5d286e61e619fe1986c9c3d03ab6351fde9d3cbaa8508474f"
+  },
+  {
+    "id": 70,
+    "actor_id": 7,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'zero_exploit' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "d9f9fdecca0db26143d64eda0fc3c5108a410f9cf5299d1263306f2436a04a5d"
+  },
+  {
+    "id": 71,
+    "actor_id": 7,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'day_zero' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "84afe76074f8f73a024b3405856751b5f65647112987dd0f4bacbec3c4b9bded"
+  },
+  {
+    "id": 72,
+    "actor_id": 7,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 496B50D5F4FF1A5C... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "a0c8662c1653339fc7ff8036fa0a3c92948128f536cc570bdb5758c09647fde5"
+  },
+  {
+    "id": 73,
+    "actor_id": 7,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 447F4E71D7E71AD5... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "063d593b500d9a08d46886aae8fe2334ada109088d9ab0a70c051912672c46df"
+  },
+  {
+    "id": 74,
+    "actor_id": 7,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 18K5UX8qYbm8WsqX... (ETH, balance: 36.0316) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "35e0528dfe1e40c7f9173dc95015652494b45adf4bcde60265ab7b9d1357f7f8"
+  },
+  {
+    "id": 75,
+    "actor_id": 7,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3qZp23eaemReVdHx... (BTC, balance: 12.0869) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "53644d5af3aec1ebfa937a815265743fd1c9705539e3e3ac4e233f8c45b302c1"
+  },
+  {
+    "id": 76,
+    "actor_id": 7,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1GF6HPcFsAKaKmVW... (XMR, balance: 18.2969) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "a223543aeed682c4a14269919d710779c5505aef4bb41ee7dfd9993b424e4a27"
+  },
+  {
+    "id": 77,
+    "actor_id": 7,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 33ZNHPTYpdc86NzZ... (ETH, balance: 41.4145) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "87e10ae1d735391d81f9b10bbab81dd10ec66eae2b1658e207b90a26bf505254"
+  },
+  {
+    "id": 78,
+    "actor_id": 7,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegahub.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "bf65169911154c77f2f6511c324f38a9df328a2f15c4a58999838439226e06c8"
+  },
+  {
+    "id": 79,
+    "actor_id": 7,
+    "evidence_type": "domain_observed",
+    "description": "Domain phantomgate.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "cf7a87ae7f8eb3ef4c64658f65dc5817dafa551e90f377df2f95cb604f559524"
+  },
+  {
+    "id": 80,
+    "actor_id": 7,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegahub.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "bbfb97c3f8a4a538b10ee8271fce58acbc589925b4c201706ac75d3f487cf296"
+  },
+  {
+    "id": 81,
+    "actor_id": 7,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostlink.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "d058edd382691e70979da87be8219178e2b95d9ffd1bbc942d86cf3d91dd55f0"
+  },
+  {
+    "id": 82,
+    "actor_id": 7,
+    "evidence_type": "domain_observed",
+    "description": "Domain securelink.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "bfeb460b671199f1a1cbde66dd008e3f639d6976adcb51bf77e93f930de004b8"
+  },
+  {
+    "id": 83,
+    "actor_id": 8,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'ironclad' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "a3156a9e6282ef7e8fb09fbe3749d570b35ffaeb81c265de7676b0eef5ae0a0b"
+  },
+  {
+    "id": 84,
+    "actor_id": 8,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'iron_gate' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "435da1197b0ed0c6de2d736366281fef318e2047f2a2fbcaf0878287cac706df"
+  },
+  {
+    "id": 85,
+    "actor_id": 8,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'clad_ops' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "634384e0f038923ff1fab507a8a873c784164fdaefe88467588fddb7296aa7cc"
+  },
+  {
+    "id": 86,
+    "actor_id": 8,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key BB88F76F788ADAC4... (RSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "5b0ac3e865c80a419d0c866fd4f888939985c765ea176d720f113a0acd69a32f"
+  },
+  {
+    "id": 87,
+    "actor_id": 8,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key EAB3D4841B30E331... (RSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "728122d0a86ebb06e7eb8cb7a5fdc338fea087b51b9d2938a66d41218730727c"
+  },
+  {
+    "id": 88,
+    "actor_id": 8,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key C2BD4049E57A8E28... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "ca4c06fd3315b567246a655531137a21aa7bc92932adc75906fe3f2e29594dc5"
+  },
+  {
+    "id": 89,
+    "actor_id": 8,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1GMEfTAgvtmhewND... (BTC, balance: 3.0879) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "5add237a90dcd8eb1fb12f2e4608d40f75dd0e5427639b0c49e627605096466e"
+  },
+  {
+    "id": 90,
+    "actor_id": 8,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1a9LX7Ca6WoTWT4T... (XMR, balance: 18.723) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "6b53a5e6b7953f9a1033fe8a95d641b232317bd28e29fbd1b67d8b88d147dea0"
+  },
+  {
+    "id": 91,
+    "actor_id": 8,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3TvN5xs8r7zP8yqk... (ETH, balance: 1.6788) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "73c2ebccb90ba2df138ff63597ce96a7a22598e4e1e396d4376ced81acb431d0"
+  },
+  {
+    "id": 92,
+    "actor_id": 8,
+    "evidence_type": "domain_observed",
+    "description": "Domain cybernet.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "87644bccdb0fdabf0402b890fbc036fc9fe9e05ff86d954f5671a48875544a20"
+  },
+  {
+    "id": 93,
+    "actor_id": 8,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphaservice.onion observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "f7b2f5d70d2aa090e2268a3bf4c3a47dddfe54a4e6552a48914f9d9f0008f688"
+  },
+  {
+    "id": 94,
+    "actor_id": 9,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'black_mesa' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "57f18096e122737a3636ccbeb786938ff2165ec5c4b6ff5c68ba940fade752cc"
+  },
+  {
+    "id": 95,
+    "actor_id": 9,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'mesa_ops' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "97f60d08875fa1779738f4075bc7d8f6a370f566afeff3fd2433adac8c309eee"
+  },
+  {
+    "id": 96,
+    "actor_id": 9,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'black_ops' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "4b888ea3b34220d24f1daf976fa4a2bda29a6c534d2906e7962635bdf1523160"
+  },
+  {
+    "id": 97,
+    "actor_id": 9,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key EEA67FFAC5626C7D... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "5cc8fdffabfcd970a1b20fcf9ecfbcad6da99c19f176d72069fdcc2531ec124a"
+  },
+  {
+    "id": 98,
+    "actor_id": 9,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key D5F0EF1F7393E8C6... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "bbab95f96746177fdb9beed51af79f9c704b8879ad383b4e2fa95ed289e61dc2"
+  },
+  {
+    "id": 99,
+    "actor_id": 9,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 4DFA72C2B7E8A00D... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "8f9ab6fc74e34df17d6202ae926903297fe785b758cb0a00a1b31d9b47ca5241"
+  },
+  {
+    "id": 100,
+    "actor_id": 9,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1EcFMo5xTFhJq5ze... (BTC, balance: 2.3281) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "dff3fbecf4586a6a92712d6cf9ba884e3d1f579dbad3bee892ecad4dfcb8bd7e"
+  },
+  {
+    "id": 101,
+    "actor_id": 9,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostnode.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "9a64f4b4c7cf16578993636a0ff622803dabdacf65a2c317ef3b775b5e428d09"
+  },
+  {
+    "id": 102,
+    "actor_id": 9,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowgate.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "1f664fb4dd70190526ca14f4545496e21dec031f92f44da4cba9e213bde785cd"
+  },
+  {
+    "id": 103,
+    "actor_id": 10,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'crimson_byte' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "fa531f41a7923512c8fbe26056c33ad9f884a12b10206cfdb443f1e1bee1dd70"
+  },
+  {
+    "id": 104,
+    "actor_id": 10,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'crimson_ops' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "6566e2e28ebc6b815de3b2ce169a46358a7ed0e04ce7bcb7ab7edea433a3c6fc"
+  },
+  {
+    "id": 105,
+    "actor_id": 10,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'byte_crimson' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "f0cb3dfd743029bc5faed9e58a25a8cdf855a92e160c32722543219d7d24e08d"
+  },
+  {
+    "id": 106,
+    "actor_id": 10,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 5CF6C04F75F6AA19... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "dc05365fc200a043cf0ae5ce040fd51e9aa8adc5b76e2c65a49c3598821dce5b"
+  },
+  {
+    "id": 107,
+    "actor_id": 10,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1jZzFXgAGG9AHJnM... (BTC, balance: 23.9505) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "a8b19bcb8d1078e2cca16d70d78b210a223ae416ac7e15ca550ee9d943ad67df"
+  },
+  {
+    "id": 108,
+    "actor_id": 10,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1xyHhVaFNpP7ZbYg... (XMR, balance: 29.1122) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "5e65fd364e4b77bb76c97d6b292bae9b019e9a337210c74490864cfd2f331af2"
+  },
+  {
+    "id": 109,
+    "actor_id": 10,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3YnMtYe5mfMe3zgQ... (BTC, balance: 5.8035) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "853a8912c33637bef231518b024508295338759e7725ebbd198e3c312464b4fc"
+  },
+  {
+    "id": 110,
+    "actor_id": 10,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1MLnXM6iT43i2L7o... (BTC, balance: 37.6163) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "bcae4e397f00814a42203312b237af4684ded63ab4e8cca4b8abaa11b8cfd18c"
+  },
+  {
+    "id": 111,
+    "actor_id": 10,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegashop.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "a93c858527168cdc42b82b7d2dc6606ec29b7544564f605ec200ee7bedae7b90"
+  },
+  {
+    "id": 112,
+    "actor_id": 10,
+    "evidence_type": "domain_observed",
+    "description": "Domain phantomservice.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "6fcf713e37bef3135a0ae11cca21c7cfd26c994290608d126024d33693257afe"
+  },
+  {
+    "id": 113,
+    "actor_id": 11,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'venom_strike' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "980f995bf55513e78ffc48299292db46d040b2bf34d090384df66d71cf16ac31"
+  },
+  {
+    "id": 114,
+    "actor_id": 11,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'venom_ops' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "42233f719ff731ec822f5a65e7aa01a60eac4f2c3df231499f34321e7d1f222b"
+  },
+  {
+    "id": 115,
+    "actor_id": 11,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'strike_venom' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "567435098fe5613b3a3a7270f99a82b27b3edfaa3a0420e7657603dad1157104"
+  },
+  {
+    "id": 116,
+    "actor_id": 11,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 52699678EE2242D9... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "db3172cba13fb0645b446e2952acc9c47985a0593ca64f667f5d5d78081d9d82"
+  },
+  {
+    "id": 117,
+    "actor_id": 11,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3Yz6qkJzTMpSzmEp... (BTC, balance: 6.7794) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "49028050f4ba3fd0ef51b484244aeeeed6ca9f7abfb6198d0d6a88322880126e"
+  },
+  {
+    "id": 118,
+    "actor_id": 11,
+    "evidence_type": "domain_observed",
+    "description": "Domain securehub.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "53d89b5bd41e83e9082423fd607fc986fc75304d7264bbf94a267927bcfa4d64"
+  },
+  {
+    "id": 119,
+    "actor_id": 11,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowservice.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "2aa3f32e9f9a66c3c3e32b190a11d8d0e508f527b1727c1ea5ca82f1ca88e0de"
+  },
+  {
+    "id": 120,
+    "actor_id": 11,
+    "evidence_type": "domain_observed",
+    "description": "Domain cyberproxy.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "63cc287b5448f2ceaa8e621b45917fe0f3e4e3e1d8a30eaba669320b291d7cff"
+  },
+  {
+    "id": 121,
+    "actor_id": 11,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostproxy.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "6838d61513e5383e64bf7a391df2f2f01463f960678ddbcac7ecff63d652824b"
+  },
+  {
+    "id": 122,
+    "actor_id": 11,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkproxy.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "2d19a165c4e88651a8d0e9c7b5657b59925c4c78fcdb0c4e0e0606380b1646de"
+  },
+  {
+    "id": 123,
+    "actor_id": 12,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'silver_bullet' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "fb1495803fc8c85dcaba257795c56cb7cac93be8262c72fa28ebb10389089fd8"
+  },
+  {
+    "id": 124,
+    "actor_id": 12,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'silver_ops' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "98af364bf1e840ae40b33aa8e9c9b0c468e46021bb02a5f59b3f94f5408c32a4"
+  },
+  {
+    "id": 125,
+    "actor_id": 12,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'bullet_silver' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "e6eca725a542775aeb7981151befcaacf60aa9458e0329925d7c91981981d837"
+  },
+  {
+    "id": 126,
+    "actor_id": 12,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key D59975A01C71D70F... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "68ee39f34484fb7b16b78f89316314e35c04f0ac427241a5b00e0b16b2cbfef5"
+  },
+  {
+    "id": 127,
+    "actor_id": 12,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key DF6216B15E2CC2F2... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "4923cdb7df0dfced97d641d9616b72c4dca600df83dda630416602602a73d186"
+  },
+  {
+    "id": 128,
+    "actor_id": 12,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1XWkJ4uxV7VbXyzw... (XMR, balance: 4.1214) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "dc526230d715f2f8ada6d9f2cf797487e16851b7e77c4a6cc13ef7a39caa9455"
+  },
+  {
+    "id": 129,
+    "actor_id": 12,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1HJWCoYPdqg4hjr4... (BTC, balance: 36.6468) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "e1a213fce54a8be22d3745f33aaebf60a2ba7bfb976590855070ee499eb33038"
+  },
+  {
+    "id": 130,
+    "actor_id": 12,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1m2oG4ia5TMVZNF6... (BTC, balance: 13.5629) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "bc050fc74173e900c5979514e850496d115493ecd8a9c2ce915b69ff5d59647a"
+  },
+  {
+    "id": 131,
+    "actor_id": 12,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegagate.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "2875a0b172ab6c7944d83101ab916a4d3789aa8f9a5bb5afd2d02e985f72fb46"
+  },
+  {
+    "id": 132,
+    "actor_id": 12,
+    "evidence_type": "domain_observed",
+    "description": "Domain securemarket.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "b8b70a967f61f5130e9dc4a99448131165fa2e84e4cf40addac817aab40cca94"
+  },
+  {
+    "id": 133,
+    "actor_id": 13,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'carbon_fiber' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "bbcc0f94bf677bb6f8d3d132a48072603785819309df462210c442c5c7aa324c"
+  },
+  {
+    "id": 134,
+    "actor_id": 13,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'carbon_ops' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "14a07890cb870afeb466470c409a18c0e06807e2f503745ddc1135d307cd5b28"
+  },
+  {
+    "id": 135,
+    "actor_id": 13,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 754CB35FFCB8C2E0... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "aeb8324deeca1f007fe5cb3040a553f9a672c987c14c92181ec29a802c920eaf"
+  },
+  {
+    "id": 136,
+    "actor_id": 13,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key A690A24DE6D573F2... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "cd7f4c5ec1c7024939cc0ba382216e14d45cfccfa42f7e98d47ced9e292b4fc0"
+  },
+  {
+    "id": 137,
+    "actor_id": 13,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key FD8811C10C336AF1... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "1e5abec4cc2dbb863b43411b9bb0e6f83907be229885e77244cb10378bd11685"
+  },
+  {
+    "id": 138,
+    "actor_id": 13,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3QY4H8CtXdooznMY... (BTC, balance: 38.2025) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "4202b5c507d7060e465cc8e9789d5ba4d47266a9c4ae2eb95b7b94de150b44c7"
+  },
+  {
+    "id": 139,
+    "actor_id": 13,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1ayPwzBEKjMbhMZ9... (BTC, balance: 1.0956) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "7dfa2f2c0a0c3197bc02f6859b466eb48a120dabb3839ad3dcd49bc981525bbb"
+  },
+  {
+    "id": 140,
+    "actor_id": 13,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1mrrxNwP6J8Axnxe... (ETH, balance: 15.9108) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "2172f0cf6a41cb8d966752e3a4e1ea7d3a828624ccc25f71454cc351ff166c23"
+  },
+  {
+    "id": 141,
+    "actor_id": 13,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegashop.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "60a21d5df3d9ea3c7391875bfc534d966250a65df6a3c2276c80173c553d4ab3"
+  },
+  {
+    "id": 142,
+    "actor_id": 13,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkservice.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "52ea9b7bd03021c53f9561aa5ec749022ef0c790806f536c19a3f24327524699"
+  },
+  {
+    "id": 143,
+    "actor_id": 13,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowshop.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "9a1dfbeb55473930a821e70002573e24ef35ef4550321c04def1deff0117b46c"
+  },
+  {
+    "id": 144,
+    "actor_id": 14,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'titan_forge' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "998384798f6257e6ca98fceb9df5385bcfcc71c883b2826fc6abf16dde4646e0"
+  },
+  {
+    "id": 145,
+    "actor_id": 14,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'titan_ops' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "88eed0dc320c315af58ed4f82d652c7e7e79e5c312ccf18e00dbbebf29d67cbc"
+  },
+  {
+    "id": 146,
+    "actor_id": 14,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key E56DC9C37C00415E... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "0927dffc96ad491a458a9fee53db2d778bcba4d3f93463aa84d838498c2a7248"
+  },
+  {
+    "id": 147,
+    "actor_id": 14,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 001DA713AF71C7E4... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "5c0e36fd58adfdb4887458bd202d77e6e1987d0ddc57b7961edf89b86d3467b3"
+  },
+  {
+    "id": 148,
+    "actor_id": 14,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 35uiWuogc7kBzyo8... (ETH, balance: 39.0843) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "1c9935e7b318181e825b00b5afad9594ab8b80ae34fcd68ec195e6f2ab41609e"
+  },
+  {
+    "id": 149,
+    "actor_id": 14,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1R9bkwvZ6HYLQPVc... (BTC, balance: 48.6248) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "751636f0b236331e322f692cf8a835831c88857290074829f2c43348f23f1f96"
+  },
+  {
+    "id": 150,
+    "actor_id": 14,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 18ySpGReBDpjmspW... (BTC, balance: 34.0587) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "1fa7112c769570b2517ec8d72f9d374f22240c2ab9c21753276790c8f2ed2921"
+  },
+  {
+    "id": 151,
+    "actor_id": 14,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1NbBsbMAtkgHPAax... (XMR, balance: 44.7741) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "d4c1d93040af84e3303557f7d3769c70f1d1b163efc974a3fa23a8bcd4b7ee78"
+  },
+  {
+    "id": 152,
+    "actor_id": 14,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexushub.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "665e33d412f094c41f78e74ce409474c9024589a704539d3b06d1f1447985ec4"
+  },
+  {
+    "id": 153,
+    "actor_id": 14,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphalink.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "a1d2394203367c35e57adf102c9dc77d73c386c3ac30ab920bc42683a1ae06ca"
+  },
+  {
+    "id": 154,
+    "actor_id": 14,
+    "evidence_type": "domain_observed",
+    "description": "Domain securenode.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "69e767c6769cab44cf42f315492d8b9a619af0270ee9de2cf92a7817662c29cf"
+  },
+  {
+    "id": 155,
+    "actor_id": 14,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegalink.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "0022af0f529cd85e8b941d35b034d6e3bd1966f6bf25482086670ac1c515e591"
+  },
+  {
+    "id": 156,
+    "actor_id": 15,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'obsidian_edge' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "b6d004f87744e5479d49940a9abbc1a1dc44c980ca0bbd9ad80333c740a81620"
+  },
+  {
+    "id": 157,
+    "actor_id": 15,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'obsidian_ops' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "bd7f48f24f84624e61a4bd8364cb12f904b33839f5e2a72cc67adb1b61174242"
+  },
+  {
+    "id": 158,
+    "actor_id": 15,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key AFA3830DC652074E... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "fdfa7d73638cf9aea5b84d8a870b6fc4f6a6892ff9a1655d4c936bd2a8c2630e"
+  },
+  {
+    "id": 159,
+    "actor_id": 15,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 33D6E59710A99731... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "0b9412e0bc48fbf8d8bced4f8a67612f22830a378a5367ce519c14ed4d123606"
+  },
+  {
+    "id": 160,
+    "actor_id": 15,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3QxP3CN1KqCgdFhL... (XMR, balance: 0.9562) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "ed257781201849a6f38464b2e7f2fb82061ab9eb635a39beca14c77a7928c649"
+  },
+  {
+    "id": 161,
+    "actor_id": 15,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1j8jbANe3sFY3zfe... (BTC, balance: 14.1353) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "953d7af20160ab8a67c67cfd525c480dcf621b8dd7c163dc3a3fd2c2c0774616"
+  },
+  {
+    "id": 162,
+    "actor_id": 15,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1VcnqyMQAYugUE16... (XMR, balance: 36.927) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "92005a4ade19f6fc7090f3d4e20fffbb5e7543b793e44fb897d58b3a0c74fe78"
+  },
+  {
+    "id": 163,
+    "actor_id": 15,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1rt19eLtxGjNL7QT... (BTC, balance: 24.154) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "4ac3c4a4811904f346276a9943d6eac6ff70585b59a1436ce670a51083e78cd7"
+  },
+  {
+    "id": 164,
+    "actor_id": 15,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkproxy.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "fe3f4c502336e78f7b3e83197254f8911d0561b140538130916448688a2b4462"
+  },
+  {
+    "id": 165,
+    "actor_id": 15,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostgate.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "082e839bd907d220ff6047b3fa54006e8b2255d069c807c30fe7e4f6beb12b90"
+  },
+  {
+    "id": 166,
+    "actor_id": 15,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphalink.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "2602287170160c2c56fd268c938b2edafb2cc2ecb79e0af5c25788c4595e7ac1"
+  },
+  {
+    "id": 167,
+    "actor_id": 15,
+    "evidence_type": "domain_observed",
+    "description": "Domain phantomnode.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "f576fe98f0f7648aa206cf1d8bf88a8be103f769b8dffb42fa16690ecff736da"
+  },
+  {
+    "id": 168,
+    "actor_id": 15,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegashop.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "2690948324b73e85f395057bce7bbb39a0f5d533c287f33ed951aed8a56a648f"
+  },
+  {
+    "id": 169,
+    "actor_id": 16,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'nebula_core' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "da1a9b071851d12f516354830a9a53cb2b796ba047437a4470c323064f956ed5"
+  },
+  {
+    "id": 170,
+    "actor_id": 16,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'nebula_ops' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "ee402968d84aecec4a058850b5792ad87e87b1fbaecc9c07473af565bc588c2d"
+  },
+  {
+    "id": 171,
+    "actor_id": 16,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 8772C554886D1791... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "4afd1abbf8c572c4b20395c59f38c45c0e5443b38605395c72342cb311d6e265"
+  },
+  {
+    "id": 172,
+    "actor_id": 16,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1mDLqxHXh3A9ii7c... (BTC, balance: 27.6613) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "4473ca3aa876e5d481eedd4a71941ecdcbaa06352608112789ef6ef326f1e112"
+  },
+  {
+    "id": 173,
+    "actor_id": 16,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegarelay.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "ac681ab53f23def3080917dc35bedcfe5d5cebe6f8b37019bb416d93ed602944"
+  },
+  {
+    "id": 174,
+    "actor_id": 16,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowlink.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "8dc6a4cac2bfe4db0710b9b572c545c14a534ddffea77704ab73adbb8cfd0f23"
+  },
+  {
+    "id": 175,
+    "actor_id": 16,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowshop.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "40fb0510fde75a3065309bba9cbf6f2f29665d606483f1dcc733da207c7643e0"
+  },
+  {
+    "id": 176,
+    "actor_id": 16,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegagate.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "29a35567d244fdd529c8928b8513c58fac76b2bdc3ebbb7c393b5b8dd168577b"
+  },
+  {
+    "id": 177,
+    "actor_id": 16,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultlink.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "235efb314c641a9db3a49cd35a524b72a2bfeaea166d82deabd4787a7236dab1"
+  },
+  {
+    "id": 178,
+    "actor_id": 17,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'quantum_leap' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "55efb6e0194381840742418485003f80c691b35f70659375afe8cf0a0dbf8568"
+  },
+  {
+    "id": 179,
+    "actor_id": 17,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'quantum_ops' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "7d60a5eb7e0759550a6a07ee64d0261e09141988f4c55b08d7f3ccbdaf9545da"
+  },
+  {
+    "id": 180,
+    "actor_id": 17,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 2BF28ABC89FBAE8E... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "d43333471e9ad46d1ea37bc9a8876f68179c38cb661141d6b742ec7c5db2546c"
+  },
+  {
+    "id": 181,
+    "actor_id": 17,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key B066CAF0B3DD73AB... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "2f4a73d109f71ba7e24c8abf25e4d6b42c2818452e4796d261f64bc78f837034"
+  },
+  {
+    "id": 182,
+    "actor_id": 17,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 795C532186813355... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "2bd62612501c8a221167484721c59c7d4d79105a145e8869ad6302153b7d6e18"
+  },
+  {
+    "id": 183,
+    "actor_id": 17,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3uCWwAxY14fmsR7Y... (XMR, balance: 15.8202) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "f3d7a0e454833c0978d87f151ee4bb2747663daff0ed4e2ba654a07ddcf1499d"
+  },
+  {
+    "id": 184,
+    "actor_id": 17,
+    "evidence_type": "domain_observed",
+    "description": "Domain darknode.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "5f0f88e181a75d26f179e7d57189c20afab1d334fe8b90d58b1e7e291759387d"
+  },
+  {
+    "id": 185,
+    "actor_id": 17,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegashop.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "67a61f76d5a765e116e805f71242bf5f4e21a490000b2067f31d199ab9a9ad8c"
+  },
+  {
+    "id": 186,
+    "actor_id": 17,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkgate.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "c3b32bd5293f1160cd5c883c6ca4711c9713839417f2789e7ee217d24fe69018"
+  },
+  {
+    "id": 187,
+    "actor_id": 17,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostlink.onion observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "8cd12a3618e48f9f6afd143b655fedb303485f3fe8ab974a1f0c150e0507b9cf"
+  },
+  {
+    "id": 188,
+    "actor_id": 17,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexusproxy.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "d343f9fc6aff65499dbab913287052213d66fc474768bb2dc05797d3724aa948"
+  },
+  {
+    "id": 189,
+    "actor_id": 18,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'dragon_scale' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "0671131a4198801594b0559348d76a697b5b7af3113cc720c68cd63481848d4f"
+  },
+  {
+    "id": 190,
+    "actor_id": 18,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'dragon_ops' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "e81dc01f45380bda51d501bf2ba6a85acefc970b47bf3834043e8d6c69c92a27"
+  },
+  {
+    "id": 191,
+    "actor_id": 18,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 4A4EFDAF0D209681... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "328944ce1fe5be91711252e796788b7f105256ea6b076221fe4570776af54c2c"
+  },
+  {
+    "id": 192,
+    "actor_id": 18,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key A341375AB29CF25C... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "a87181855d086b5656c45c2efd3a7f98d416030edfc6dd56ae196912a9bccbe2"
+  },
+  {
+    "id": 193,
+    "actor_id": 18,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key C304E8A26E9D2815... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "28d49b7c85625c4d05fbea44ddc4237fe6472a62e022fc026f87dd8330bfd56b"
+  },
+  {
+    "id": 194,
+    "actor_id": 18,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1hXqqGYBeNeqWNuW... (XMR, balance: 33.7615) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "7a5017a710f81c8711c1164b38d97bded776ad4f4839793f2aa6899a9632e4a3"
+  },
+  {
+    "id": 195,
+    "actor_id": 18,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3DAq23aAd3a4FBxb... (BTC, balance: 46.1176) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "c2ab7f445390a9b61840cace6a5b8e355e225af16e8fc9a3b3b76973333d4504"
+  },
+  {
+    "id": 196,
+    "actor_id": 18,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1EP7CrWR96Uc3nW7... (ETH, balance: 4.8858) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "340e24cfb5557ebe704b02388522481be37bcdc49523eccfc5440013aad50868"
+  },
+  {
+    "id": 197,
+    "actor_id": 18,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostrelay.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "b29c2c05d2288e51fe488fa191dbb4bf4e5d83d0075e93fc8ced97e58833de0c"
+  },
+  {
+    "id": 198,
+    "actor_id": 18,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkhub.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "36647e2151c9b454bb15bc8fcfac12be8ac4cafba03113760c5215807eb72988"
+  },
+  {
+    "id": 199,
+    "actor_id": 18,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaulthub.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "30a190713af04730c0734fcdcd907b32a4559d8db8ddc8ae48d79c782db34b6f"
+  },
+  {
+    "id": 200,
+    "actor_id": 19,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'vortex_rider' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "f17e472bab79c18fee5561e27f72ae25973693f5bd199afda2ec46f39a5f8b76"
+  },
+  {
+    "id": 201,
+    "actor_id": 19,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'vortex_ops' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "edfcffb6086b5d834c30116b87bd366046d600605039cf3b67371dd679594496"
+  },
+  {
+    "id": 202,
+    "actor_id": 19,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 4AC6C758445BBDAB... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "bf8fd1c130845f8b8f58e1b8074ad241650e7cbe72d0b26dc76b8b471c31a3a8"
+  },
+  {
+    "id": 203,
+    "actor_id": 19,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key FDA73AC409832030... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "8320d30a16687ac1be7806522cf527a759bb949c2517980c6a8832301557160f"
+  },
+  {
+    "id": 204,
+    "actor_id": 19,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key FCFED9BF9CCF7790... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "e2c93799f01529610c26a217952c68779eb5e3bc6da07e4a9b41913620af60a7"
+  },
+  {
+    "id": 205,
+    "actor_id": 19,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1sCCFcA7vgfcmY3U... (BTC, balance: 22.8598) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "e742df218cfe61ea732ecbf58cbcecc2c63d17b31d34ad9b46202ae58fcceefc"
+  },
+  {
+    "id": 206,
+    "actor_id": 19,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1hTg1DaKcGYEUcNV... (BTC, balance: 21.076) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "e9e9e8d589fe8077fcf3cb0dfda76c9a6aa31684255c3537db7aa7289e336522"
+  },
+  {
+    "id": 207,
+    "actor_id": 19,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphanode.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "fcddfcfec19cc71577e22d768cb3d035a9e40e5b1644d6e0b3372840813d29a6"
+  },
+  {
+    "id": 208,
+    "actor_id": 19,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghosthub.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "b5531451a7eda63574161d748dbffca3f496b31ef40c3db3dae91f2973603b60"
+  },
+  {
+    "id": 209,
+    "actor_id": 19,
+    "evidence_type": "domain_observed",
+    "description": "Domain secureproxy.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "0510b34ed497d0d0c3073360c5ffe4ca5ce7d09b0ecc80e16a1315d5ddebef66"
+  },
+  {
+    "id": 210,
+    "actor_id": 20,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'apex_predator' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "3ab0471b35ecfdf508093a0bbef01265c489a02d59c1d03d53f3c26627e3141a"
+  },
+  {
+    "id": 211,
+    "actor_id": 20,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'apex_ops' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "14433383f0cdea28e3d9fbfbd8a25b1a004e03f2df91dff4229385d290c7ffbc"
+  },
+  {
+    "id": 212,
+    "actor_id": 20,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 458C565A99A8F458... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "5a39825b6f1742bd3d923c09e58044fd2d80611ec8c1cda56e2bafd8e707eece"
+  },
+  {
+    "id": 213,
+    "actor_id": 20,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 620BAFB1211E806C... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "bf759d5a447c9d2023f8352dda087e6e3146a90cfea6c373f24c583ca7f2354e"
+  },
+  {
+    "id": 214,
+    "actor_id": 20,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3UE6JQA1Xk8HYgVk... (ETH, balance: 40.3787) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "3c1e18c228e12885a77c0c7308d6d22ef49385780d856bd6d830f5d27282b265"
+  },
+  {
+    "id": 215,
+    "actor_id": 20,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3HkoQrBHdcGdB23Y... (XMR, balance: 3.5692) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "9642c789a8c8e03868709bfa0b6dcbe1be59c1334df337010a67780591d1de8e"
+  },
+  {
+    "id": 216,
+    "actor_id": 20,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3BtFP1yiPyFzCj6f... (BTC, balance: 29.2348) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "01019286c83073e3383c5ef65dbd0088cf02a785017fc92b1710166457c3eede"
+  },
+  {
+    "id": 217,
+    "actor_id": 20,
+    "evidence_type": "domain_observed",
+    "description": "Domain cybernet.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "73388fe30f7c9fcdf15904cb988a82a1d9d4ccd2b2786e75d989cffc0c4c6ee7"
+  },
+  {
+    "id": 218,
+    "actor_id": 20,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexuslink.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "3c4fc46c4b61d6c2ac2f6a149bca7bade653787033939bf40e6311823597c4ba"
+  },
+  {
+    "id": 219,
+    "actor_id": 20,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkservice.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "44f96be196ea5ae4326c657e47b370946fb33209c5905b926edc34d58a89161f"
+  },
+  {
+    "id": 220,
+    "actor_id": 20,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegagate.onion observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "0ab90cc8e492eb764bbc91a6e771ab1e75577968abb44a8607b66b56130b40d1"
+  },
+  {
+    "id": 221,
+    "actor_id": 20,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadownode.onion observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "c6a78cd896967edfc7896c7fd659cd969325f9a633c40baf2fb45662b3eac3d1"
+  },
+  {
+    "id": 222,
+    "actor_id": 21,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'nighthawk_ops' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "21e6445d30a128a6b1cbe5593354b70e56cff45e5863ea54afc47242b92fa9a6"
+  },
+  {
+    "id": 223,
+    "actor_id": 21,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'hawk_ops' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "37cdef9cd07a11c3596f8569f8786bdaf2702cc0f26279d7efc93c1245237850"
+  },
+  {
+    "id": 224,
+    "actor_id": 21,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key B40B8879857D9D28... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "710d69b34922ebfc1979bf64a2c10dafebfbc1a723e65564dfe41b29a88bfb6f"
+  },
+  {
+    "id": 225,
+    "actor_id": 21,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 20130A679903B0EA... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "a0ad0cf1364e1855485a4ffbf2b9398ecdd55a384cc6016b6a73141f890b4936"
+  },
+  {
+    "id": 226,
+    "actor_id": 21,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3ghR7nYWfXbwuYzr... (BTC, balance: 15.0167) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "b027551f2008c43f7fd81c9da362aac00169d93715fbad8827674dd3a2a50de3"
+  },
+  {
+    "id": 227,
+    "actor_id": 21,
+    "evidence_type": "domain_observed",
+    "description": "Domain cybergate.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "d52a8bb21e7b642c71a2cc2565073a93375f5f91541129cf900b5edea416086f"
+  },
+  {
+    "id": 228,
+    "actor_id": 21,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostnode.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "212d8eebbb11705e3fd839483e3e332a1efbb76d6c3ce8da50ce4b88b2934368"
+  },
+  {
+    "id": 229,
+    "actor_id": 21,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegamarket.onion observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "5f77be318c73f8c2e937a42bc97c67ab900835109ceea6a84660618ea5bd181a"
+  },
+  {
+    "id": 230,
+    "actor_id": 22,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'steel_serpent' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "f4b2208aff4e10c09612bb9e65976d64bff3d8034ecc3ee54b7dfb1a70c5a2bf"
+  },
+  {
+    "id": 231,
+    "actor_id": 22,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'steel_ops' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "e5d3f670ebb77ca972e754a371e95f52c175249664af13e147dd4ef3e2d66e78"
+  },
+  {
+    "id": 232,
+    "actor_id": 22,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 577EBD1A0C6CE5E6... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "018012da3822a9dfef520db4820463df7a3f8245bdcbd861ba4df8b2db8b4cf5"
+  },
+  {
+    "id": 233,
+    "actor_id": 22,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 7B8466BC73698F83... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "7897cb05392ccfb264d9d7ead48265d030b76ba32f726d9be998b81d666e7e01"
+  },
+  {
+    "id": 234,
+    "actor_id": 22,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key DD0B170383847B2B... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "e9f73bf591a2a6f421226100120b4f6aa9b2d293a3b9e4a533902d07c97a3b3c"
+  },
+  {
+    "id": 235,
+    "actor_id": 22,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1WTv2FXLPAMMdEyW... (BTC, balance: 21.3232) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "61f1a39651c68ea474e3d66c3f5a0b4335ac1ffec0183b2afc26b271718fb097"
+  },
+  {
+    "id": 236,
+    "actor_id": 22,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3uLYC9YosJhX8zy9... (BTC, balance: 5.3386) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "b0e5d5d4e463bd71608f0f4b9ccda52586576f0de089c4ebaba700c7ebf09000"
+  },
+  {
+    "id": 237,
+    "actor_id": 22,
+    "evidence_type": "domain_observed",
+    "description": "Domain securelink.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "af357d6d143cde34176059364a8a3956ad7d87abcd2c0f227763a567b22cf152"
+  },
+  {
+    "id": 238,
+    "actor_id": 22,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegalink.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "b966fedbba98fa0d72b18724a17ffd4f3750855e44747256b4418f7b75f99845"
+  },
+  {
+    "id": 239,
+    "actor_id": 22,
+    "evidence_type": "domain_observed",
+    "description": "Domain cybernet.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "e0e161c95f452243f8037c3b8a29a2e928a9ba376fca70209bee86b419e68065"
+  },
+  {
+    "id": 240,
+    "actor_id": 23,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'chrome_viper' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "391e251661c4c8ffa21750400e9afa930ab38fed82ee0813ffb6ca2f129277dc"
+  },
+  {
+    "id": 241,
+    "actor_id": 23,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'chrome_ops' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "2be98c14ade83ab8eb61201ce142810be0354b8e6242fbc22b3324ce90a00e74"
+  },
+  {
+    "id": 242,
+    "actor_id": 23,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 3A332F79BDE6C9DB... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "5ba38b4e5173af979a3c1b8b6c235b2bc56568cf7e5dd694b890a391f11c6ff6"
+  },
+  {
+    "id": 243,
+    "actor_id": 23,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key BE7A1829E86507EE... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "7a168903881813555f26e9c604a770f6a9fcd075d7ff6f850b575a57b9fdfaeb"
+  },
+  {
+    "id": 244,
+    "actor_id": 23,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3JmSd78CdFTrY1tE... (BTC, balance: 2.4516) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "657861c0ec3713dba0e21e8ba601a1fc394373e32d8b79f396724a439a6a1292"
+  },
+  {
+    "id": 245,
+    "actor_id": 23,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3zAHfhaZykM3mKup... (BTC, balance: 21.3527) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "a6432facbcbb5ec5212692ea33851095f6833ff13bfb9bade95a26d7bd762efd"
+  },
+  {
+    "id": 246,
+    "actor_id": 23,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3GadvcVjVotEHC7T... (XMR, balance: 36.2198) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "9e299fa28d142293f8f9e905bf4cd796683b1a096ed88cd9d15a272c8f3cedba"
+  },
+  {
+    "id": 247,
+    "actor_id": 23,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1qCqvUU38ATstTpv... (BTC, balance: 29.7596) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "ac9a2f8f2e74d3ed5f6cef194887385cbae7eb8fcc6047d20da456c4e41b9820"
+  },
+  {
+    "id": 248,
+    "actor_id": 23,
+    "evidence_type": "domain_observed",
+    "description": "Domain phantomnet.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "c153c4c5878541bb0b51350c4932a3118c607ce06e057f27d95ca868370cdbdf"
+  },
+  {
+    "id": 249,
+    "actor_id": 23,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexusservice.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "a6ea14cb1229e17a2a19257ccff732c2f88d49fdc7bdbff0958c31879be91e48"
+  },
+  {
+    "id": 250,
+    "actor_id": 23,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostservice.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "a600014e4ab7abfdef3360c4145291f20c6a0f5b49dab787f7aa75c10c2f58f9"
+  },
+  {
+    "id": 251,
+    "actor_id": 23,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkgate.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "638a1e1144b0932b642917d6f053bc2464c97400176fed0fdd065099f7f4f990"
+  },
+  {
+    "id": 252,
+    "actor_id": 24,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'plasma_wave' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "2b48d31b641f4bf4c3a9e68ee457655d0cb837b518797137b83e939e0c2e80fe"
+  },
+  {
+    "id": 253,
+    "actor_id": 24,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'plasma_ops' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "0ed5700461c811a0a2a9282053c32373abe6d4e829f89411336a36b6906a8919"
+  },
+  {
+    "id": 254,
+    "actor_id": 24,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key B8C2DDFA2B7B80EA... (RSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "80314ddaf29923e4206c0c959a305b4233fdcd3b083e741ba3d199b9df3f3529"
+  },
+  {
+    "id": 255,
+    "actor_id": 24,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 924E800E0616BEAB... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "c8e49806d529654d479ff03aa13f7863526af82b96717ba1cce2d701c3b52a8d"
+  },
+  {
+    "id": 256,
+    "actor_id": 24,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3V47UrHMaWQi7Z5J... (XMR, balance: 5.7161) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "c979716519d4adea4e9db1713e34007165d5867a46416159367469908f1e973b"
+  },
+  {
+    "id": 257,
+    "actor_id": 24,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3K6SJQbgbpKe4D9a... (ETH, balance: 0.406) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "67b152a709e5fccd92bb310a003eb44877f448afbc4d05d03e21b492e1de8a43"
+  },
+  {
+    "id": 258,
+    "actor_id": 24,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3rr4uy1Zy7H2Sbdi... (BTC, balance: 4.2332) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "a0334eb8758520e48ecb0404e806d66aee0c5d528dbaabe3548f162b374eb356"
+  },
+  {
+    "id": 259,
+    "actor_id": 24,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexuslink.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "789348413ab3c091f771193274a19ede89e9143c27d94ff8010ccd3cdd98bed1"
+  },
+  {
+    "id": 260,
+    "actor_id": 24,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexusnode.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "dbd8841b046357ebc016912e729b4d7ac1ddd5e247d55066330836030f314f58"
+  },
+  {
+    "id": 261,
+    "actor_id": 24,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexusproxy.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "0675f62cacfd04990ad8b974cdf1b92fab706a1f50404f31d2d4e8900e8d90cd"
+  },
+  {
+    "id": 262,
+    "actor_id": 24,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultlink.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "0aa573d36f9d064c6c7d8893d43a800859630d532277c918533dc9dc55dd9c4d"
+  },
+  {
+    "id": 263,
+    "actor_id": 24,
+    "evidence_type": "domain_observed",
+    "description": "Domain cybernode.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "f64b32f68a365adcc748efbda3455cd40dad37a0650edd77206d365a22d54631"
+  },
+  {
+    "id": 264,
+    "actor_id": 25,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'eclipse_run' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "e1c0356e13090d5076842ba0d00fd9a3936ce0b804e0a096000b0e9eb0d95ac2"
+  },
+  {
+    "id": 265,
+    "actor_id": 25,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'eclipse_ops' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "526e9dfafe90652cb2edf55cab7ee408a13f345eb60b73e7bed306ad7f02e28d"
+  },
+  {
+    "id": 266,
+    "actor_id": 25,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key C405C787B6FC40EB... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "9d46bdfa837839a52f8050e9f4726030ea103bc524866e52cddf5604357ab9cb"
+  },
+  {
+    "id": 267,
+    "actor_id": 25,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 7CD512E27FC37A3B... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "f0d1592b355ee74d64fddbb951644dd596fb220a98f89edc689437efc0a1cf38"
+  },
+  {
+    "id": 268,
+    "actor_id": 25,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 541A6CBB935B28AD... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "bafb93fcd18756a2731d29f851e2a17c5f94aded2b2007e2d252c88d5ff881bd"
+  },
+  {
+    "id": 269,
+    "actor_id": 25,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1evHRumKA5nPL4xG... (BTC, balance: 32.6433) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "7dffb5dc41fb802301dec90e014aa25519bf2334114b63d50362027ff0a8db1f"
+  },
+  {
+    "id": 270,
+    "actor_id": 25,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1wfGhuaWwVSqnnY1... (BTC, balance: 48.3756) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "6621b5eb7520cfd9c71117116af65e6a0d32bff7de72501666938e1ec3969ac1"
+  },
+  {
+    "id": 271,
+    "actor_id": 25,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1JP7gVtSB32zEPne... (BTC, balance: 24.4447) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "69e96055ec1f5ad92fdecfaf36b7a740111f9da15517e2edb48af3da2ee91cbf"
+  },
+  {
+    "id": 272,
+    "actor_id": 25,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1Uv3h8A3JoTAbp7V... (XMR, balance: 8.4025) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "9e99ce3ed0d39a0e9d87c46c0217a7309a27a0aa36a184c461f72c546763f7a0"
+  },
+  {
+    "id": 273,
+    "actor_id": 25,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphamarket.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "3f991c3987df5f92ad424aeb5a5702f75756e3d8a15a112018258eaca2981a51"
+  },
+  {
+    "id": 274,
+    "actor_id": 25,
+    "evidence_type": "domain_observed",
+    "description": "Domain omeganet.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "a9c4456e181c45a66ce84da50a499e7c843f49fd2bec67e8b8995c463aaf9af1"
+  },
+  {
+    "id": 275,
+    "actor_id": 25,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegaproxy.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "7b2928ffcf26d37597a7d10fde733035684b58badb8d248a5596d42ac0393f68"
+  },
+  {
+    "id": 276,
+    "actor_id": 25,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexusshop.onion observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "bb173920740a802d5a86a3ae70d17149d8e1c93670ab230906b590912f2dc901"
+  },
+  {
+    "id": 277,
+    "actor_id": 26,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'frost_bite' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "a0f588724e40a9d95fc332f8d30c0ca51d313f5b28d0b01d47a834ff8e6f4051"
+  },
+  {
+    "id": 278,
+    "actor_id": 26,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'frost_ops' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "532983ce4711b540bc7a0cfd338cd2ab5f0f4c4be8d7db9ed8d9d92e1e235eef"
+  },
+  {
+    "id": 279,
+    "actor_id": 26,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 4732B9B91D4683FF... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "f189773f6efd60c4a85da27ec27a85d316c5a2bec76587260fa7ad11549ddce0"
+  },
+  {
+    "id": 280,
+    "actor_id": 26,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 20813796BE313363... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "a9b321909e838879b8b28f8380288145ae8fe248c8245e43cc5a32cc5eb25bb1"
+  },
+  {
+    "id": 281,
+    "actor_id": 26,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 98368D37706D363E... (RSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "70ee00cb7a55752292cb3b9a46762e1c3ae25ada94c15408f416b1e8231b5323"
+  },
+  {
+    "id": 282,
+    "actor_id": 26,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3T9hBsdh1dPhXJkh... (BTC, balance: 6.9203) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "54cd0396c48a99c27438bbe3861f02df09f302a56de299cea9071a9fcbc1617d"
+  },
+  {
+    "id": 283,
+    "actor_id": 26,
+    "evidence_type": "domain_observed",
+    "description": "Domain cybernode.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "7739695efde41f77bd3d0b0f2d16284479d28e10f4f3294eb8f274cfb00e6062"
+  },
+  {
+    "id": 284,
+    "actor_id": 26,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegaservice.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "6a485aa2e9d894b47941b7d8f19fe1ab885d78391d42f084b54494b3074fecb5"
+  },
+  {
+    "id": 285,
+    "actor_id": 26,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostnode.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "33a730bffec77c1a8ca11a0cb77e6ad0e8560b64393f22546ff6d1f252a9e39b"
+  },
+  {
+    "id": 286,
+    "actor_id": 26,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkgate.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "162625d07fd654410cb70d8dc07179f7a2fe00aa62e5e82c339c6f385bda46ae"
+  },
+  {
+    "id": 287,
+    "actor_id": 27,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'nova_spark' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "079ae5300a1ff1a28450c72fee3c109bda81a4d2198123ae17e011876e0c4382"
+  },
+  {
+    "id": 288,
+    "actor_id": 27,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'nova_ops' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "745bd5faab642b75c5482e3b637b27d348dc8fec4eb1b7a83234af781c84ad2e"
+  },
+  {
+    "id": 289,
+    "actor_id": 27,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 7D8A4F8257A41D3F... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "7dda6dc9421f67e3716018e960ed5c1a4e38cc827508e1e267ba930cfb5f3f5e"
+  },
+  {
+    "id": 290,
+    "actor_id": 27,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 17zaSNCify9TyX82... (BTC, balance: 34.4573) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "7ca699b346af232acc0373e32667dcb834f9d9efe97ebae47af5f04f23317295"
+  },
+  {
+    "id": 291,
+    "actor_id": 27,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3u9YJQqS64eaDwH2... (ETH, balance: 4.3799) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "0d14b1dfad88ee1d7ca539ca60e0c643978fc6980e60d9efc38a12b66c7f356b"
+  },
+  {
+    "id": 292,
+    "actor_id": 27,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultrelay.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "e496f97d58af122be670d768d8062cafa5536baf90c6fbf7797bb78f324a0125"
+  },
+  {
+    "id": 293,
+    "actor_id": 27,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultproxy.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "2427ab376d3675f8d7db164360b70e5a0608babdd984b33ec81ea4170496669b"
+  },
+  {
+    "id": 294,
+    "actor_id": 27,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegashop.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "a3defbbe59b959f31f718eb7228e71a10ad489eed6ac91e540f3d5bef481e647"
+  },
+  {
+    "id": 295,
+    "actor_id": 27,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexusnode.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "b5ad4421e72542685882e714b66a51f0606bfe38ffb40dcf4cbe95d20ee44f17"
+  },
+  {
+    "id": 296,
+    "actor_id": 27,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegaproxy.onion observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "298beeea0e6834a125bb89be271be34b517eaba17dcb2db708496af4f26e832d"
+  },
+  {
+    "id": 297,
+    "actor_id": 28,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'rogue_agent' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "aef02ce5d1fdeaa920309c33220b170ea7b565c0e2a7b6d0ac9415b9bcf5209d"
+  },
+  {
+    "id": 298,
+    "actor_id": 28,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'rogue_ops' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "a7c3b34aec1321aed17ea225f2f6eb2ab1d85b862c54063f4ed4ca20fb251a8a"
+  },
+  {
+    "id": 299,
+    "actor_id": 28,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 24AA1A42EA0C7F95... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "3840aac395cccab80765d40ab07b88f000ebd756159bea9459562b8fc3b8816d"
+  },
+  {
+    "id": 300,
+    "actor_id": 28,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1YspgJgg6ap1XNVL... (BTC, balance: 34.5525) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "001f87a842a17ca16e27f1559661f093f8bccbf13e1fa2b3e6586802053914e2"
+  },
+  {
+    "id": 301,
+    "actor_id": 28,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexuslink.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "0594da701a90226ef201bc6f706496f9013c6cb7e0221036d02092d4738a7c26"
+  },
+  {
+    "id": 302,
+    "actor_id": 28,
+    "evidence_type": "domain_observed",
+    "description": "Domain phantommarket.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "f29c8e7cbc3049183408b747aa3e70bda9186848b610af24bf943325ff631c7d"
+  },
+  {
+    "id": 303,
+    "actor_id": 28,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkservice.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "cc0c96577d8fb87dcda5842330f05a4e06e7b8a442c8a6f10ab210dac27c01ac"
+  },
+  {
+    "id": 304,
+    "actor_id": 29,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'phantom_byte' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "ab208216fcb22bd3d0c7065655b55eaa13f414371878b0fd3dd7b5894c96d9b1"
+  },
+  {
+    "id": 305,
+    "actor_id": 29,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'phantom_ops' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "361c7e793e8f30c035ca2f73fceb7105b8872bea0c97808aac48293702012b04"
+  },
+  {
+    "id": 306,
+    "actor_id": 29,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key BC1CC01C80141ACC... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "a2a84e03a79eecba439a283693b24604ebeb17bdd081c34731ef3cb773eae090"
+  },
+  {
+    "id": 307,
+    "actor_id": 29,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key ED7B2A1DF686C578... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "d7cd11480c109ae0405b635ab55d6e6728d85416b611cf212c850f3bf1d5529d"
+  },
+  {
+    "id": 308,
+    "actor_id": 29,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1PhyktANCCqQERVm... (BTC, balance: 24.9067) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "2e59f5f533edf5ef57f29c2d8b43cfc01e90553e0a6e6ddb658577fc96be87b8"
+  },
+  {
+    "id": 309,
+    "actor_id": 29,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowproxy.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "ba7ed41e8f5893e1c984f64b2d559575e1bf96b5e1250c39fd22bae2b822934a"
+  },
+  {
+    "id": 310,
+    "actor_id": 29,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowhub.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "17f2ab3765b3b50dc07c7a27a660a2d31f4eeda88a5d33ee1198b67340e29ddd"
+  },
+  {
+    "id": 311,
+    "actor_id": 30,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'dark_matter' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "a7bccca6f58902bc5c2cbce9a8c6344e03c8408a78f6e51a20ca415fffb16b19"
+  },
+  {
+    "id": 312,
+    "actor_id": 30,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'dark_ops' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "196910db88d6b2556f1e1384fd957f4398367c4f7c43fc29bd9d6be36ae83938"
+  },
+  {
+    "id": 313,
+    "actor_id": 30,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 8C80CFE17D702ACE... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "2c8a92c5a36397fb008a7b6730af53ae6f6fd50549c88f5c767acca1be3f3a83"
+  },
+  {
+    "id": 314,
+    "actor_id": 30,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key CA66F603341BD128... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "1d1cc4dd7c4624a347f56306eb3d92f72ff22e4323f12b447cad31d556e8f835"
+  },
+  {
+    "id": 315,
+    "actor_id": 30,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 33zQEk6q6L4oUDoe... (ETH, balance: 40.4467) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "9250b8450ab935e007f49edad995cbc23c4da6f7f187ae083c7ee26a752b0b13"
+  },
+  {
+    "id": 316,
+    "actor_id": 30,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3wj4CTEkmqQrudrG... (ETH, balance: 8.7993) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "643572ddc26668528f9079ca06dd8364c30967c041c6cc6c55ec46017afaae33"
+  },
+  {
+    "id": 317,
+    "actor_id": 30,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1xV2r5bsuQNf6wj9... (BTC, balance: 5.3407) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "e3dde606a8628496ac639c98dbd72718d5ccfc2bb5e9886d0dc2e7761ea21c04"
+  },
+  {
+    "id": 318,
+    "actor_id": 30,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostrelay.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "e21d4e9b366d6c28c716a8698eefd4f62cd1a8c855806395068e95b7dfcaa86c"
+  },
+  {
+    "id": 319,
+    "actor_id": 30,
+    "evidence_type": "domain_observed",
+    "description": "Domain omeganet.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "4efb7c6308317ee7aa249b2829cc0cfe75e36fe98c0daa000d7fb7f05c62afc4"
+  },
+  {
+    "id": 320,
+    "actor_id": 30,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkgate.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "c94c388795f28d37a27f994af5c2a3d0bd86b163eeabc0404a3989a1b099d0f8"
+  },
+  {
+    "id": 321,
+    "actor_id": 31,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'blaze_fury' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "6cf9fdb245880a121ac16b7b1a0d31f28f0f145d8d878f924c5f08043b0f3d9f"
+  },
+  {
+    "id": 322,
+    "actor_id": 31,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'blaze_ops' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "37d53fd9d888efe689f53f9b61102c488c7b719d02a46501a9711bfedd884092"
+  },
+  {
+    "id": 323,
+    "actor_id": 31,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key D6E6F41D33EEAEC6... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "dc9871d3eac8593fac1a4165b9ee4ff0a61a4930cfc772262d9a2c548bc29890"
+  },
+  {
+    "id": 324,
+    "actor_id": 31,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3a7Fime8bQwTs8Bb... (ETH, balance: 21.4452) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "570275dbbe2057c0b92c3955232cedb8b95b9cfd08a41208ea5d87e68a2db027"
+  },
+  {
+    "id": 325,
+    "actor_id": 31,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 39xAZ1XmvpVECwpG... (XMR, balance: 6.6602) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "aa550093f0627c250f70bf5df3d247a2033070eaf112fe0f58a30ffe54056efa"
+  },
+  {
+    "id": 326,
+    "actor_id": 31,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3yQDPRb5Z4wUMcfo... (BTC, balance: 5.8421) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "365925152a108666c43236e33ce06c8a9c74460558b0afaac70c8f45258bff45"
+  },
+  {
+    "id": 327,
+    "actor_id": 31,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowrelay.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "a7937a0980b1c8f79852dff0d36bc1f98beb784eb17671f1ec7f63c09514d260"
+  },
+  {
+    "id": 328,
+    "actor_id": 31,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaulthub.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "92a89ced0b2cf60678e7c4340c47727a1c6bac58cc6663b9152826e944a32b7c"
+  },
+  {
+    "id": 329,
+    "actor_id": 32,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'silent_storm' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "46f0edc3436cbe6876169120b5db68b92ba8233aa913c63b53d4ec50ef56d276"
+  },
+  {
+    "id": 330,
+    "actor_id": 32,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'silent_ops' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "0075d2c5590706757e915f4776adf5ddbd05e0cc731d45501575aacf1186ad3d"
+  },
+  {
+    "id": 331,
+    "actor_id": 32,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 04B6FE05B77DD11D... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "bd0cd5e6ef396a59ab91abf1be7825acbd477d80503da6cb510697819f66b243"
+  },
+  {
+    "id": 332,
+    "actor_id": 32,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3b1yfxKjjxaD3eK4... (BTC, balance: 45.1867) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "9969737cc4ad838dd21fe26eb153af4f983a1ce56c9057c5770799d836685696"
+  },
+  {
+    "id": 333,
+    "actor_id": 32,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1M6NCSPGb6RNBd6W... (ETH, balance: 3.8266) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "dcbeeb3c68c68b87793b1fafc7d327d8f7293a812ca8e8d21937245d2714e301"
+  },
+  {
+    "id": 334,
+    "actor_id": 32,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1WWQTipMam1jTnq3... (BTC, balance: 8.5868) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "39ea64ba4c599a7f7a620bd73757fb05b167ec62fee65d1f67a6f52d5feff696"
+  },
+  {
+    "id": 335,
+    "actor_id": 32,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3TQfkjJpchxgo68C... (XMR, balance: 23.5745) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "c455d4a484e7550302d152c439a761160e4c34a8355e4b6ed8e8ebf32749b3ae"
+  },
+  {
+    "id": 336,
+    "actor_id": 32,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegaservice.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "cefbba28d1b50e640896a9ebd16279f8d8aa78b88ff3a8909d1403b940add206"
+  },
+  {
+    "id": 337,
+    "actor_id": 32,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultnet.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "4f31c98867c31b78f9f00067b2776442601b934864faef041ea614018f163f3b"
+  },
+  {
+    "id": 338,
+    "actor_id": 32,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultproxy.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "3ac4b6f2f44fd7c1072e512c97ac513779358b412e550b1f8e0a833e4f6331b1"
+  },
+  {
+    "id": 339,
+    "actor_id": 32,
+    "evidence_type": "domain_observed",
+    "description": "Domain omeganode.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "2d185d04d472d96fb48b971d0ee3576cfbee87663791d4de36d66708d3970c86"
+  },
+  {
+    "id": 340,
+    "actor_id": 32,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultrelay.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "e32d2a9acc25dd5c0bb5eb04e7eacee993cdb46a30d1b97d7642eba147af2084"
+  },
+  {
+    "id": 341,
+    "actor_id": 33,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'turbo_hack' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "f5d02b63a3e84a7c0088befbad057e9b351162e7ec551b2228c787251227f0a9"
+  },
+  {
+    "id": 342,
+    "actor_id": 33,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'turbo_ops' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "fd6aaf092f7ff6f364b9dccf69da84b5965a47e9adce7596d9da4f1f6e253d35"
+  },
+  {
+    "id": 343,
+    "actor_id": 33,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key B7789AEDB7EB66FA... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "e4aa82502854685137adc08ba91d560da702965d35c88094b7b10788975d24da"
+  },
+  {
+    "id": 344,
+    "actor_id": 33,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 1387FCCC8EDD910F... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "704c8aeec5c0364d0459818105418509b98cf8067dd9148d72f596874368f1fc"
+  },
+  {
+    "id": 345,
+    "actor_id": 33,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3LW5NkMf9kREoQQT... (ETH, balance: 48.6331) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "f64bdb887c8b6e9fd76c722b4040cf58607149239322ff2304a16fcbba2987d6"
+  },
+  {
+    "id": 346,
+    "actor_id": 33,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3QgZJku1HXvhSCYn... (BTC, balance: 1.1711) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "0f2d6bf6b202f33dce8eacc4d916e1e5c810cbdb927fd82961ee842523629fb1"
+  },
+  {
+    "id": 347,
+    "actor_id": 33,
+    "evidence_type": "domain_observed",
+    "description": "Domain cyberhub.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "1d70b720a2667bc424351695d84ba4e9c3f74b19e1f35bc8b9ff2daf0cfc6b13"
+  },
+  {
+    "id": 348,
+    "actor_id": 33,
+    "evidence_type": "domain_observed",
+    "description": "Domain darknet.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "262e37daa6a454ae5d3896c45217dde5084db6b1d7379f80c8d98ba799a44d3e"
+  },
+  {
+    "id": 349,
+    "actor_id": 33,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphagate.onion observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "bd0549e0871e58084ee4b82d605f05123f245946f3cb5458abf48e51d94d2f94"
+  },
+  {
+    "id": 350,
+    "actor_id": 33,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkrelay.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "dd2eb5575e60ffadee7e7cc97add0eadd1fc37da606ca9ba2f86c490943e0e55"
+  },
+  {
+    "id": 351,
+    "actor_id": 34,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'cobra_strike' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "2b945428c0715a4efb0e273924607aa689aa46748aef5a46537955c2b42fdb60"
+  },
+  {
+    "id": 352,
+    "actor_id": 34,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'cobra_ops' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "877fd98e844a0f147df9995323342a3eaff0b770574ea346c57814612f785234"
+  },
+  {
+    "id": 353,
+    "actor_id": 34,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key AD926B183C726616... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "68131e26ca2a917eca7692004df9816858e414cc1d0b402e35ceae19a3eef5e9"
+  },
+  {
+    "id": 354,
+    "actor_id": 34,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key F5F9619025F47C29... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "1342219440ec549f5c99786c02d4370efed7306230ac1e0cf35c0d108a1d0e12"
+  },
+  {
+    "id": 355,
+    "actor_id": 34,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1uL3fSH6A2dmJee5... (BTC, balance: 20.0899) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "25f8ed642c29fd1f31b52d109197076457c05d135c8859cae29901e16f88d138"
+  },
+  {
+    "id": 356,
+    "actor_id": 34,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1VwLB2XP6yYHBm9x... (BTC, balance: 13.4644) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "ec0071e74a41cbaebeda1de70bf243ef2a695d121efe8874fb9d2e15266580cf"
+  },
+  {
+    "id": 357,
+    "actor_id": 34,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3TQVQEtGxgFZnJQ5... (ETH, balance: 12.5444) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "0ba7d5175dc2959dec5f29dcf796dabee364eab17b89ea9ffdb56dbc408231d8"
+  },
+  {
+    "id": 358,
+    "actor_id": 34,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3zqDqHAX56hqjzsD... (BTC, balance: 33.6353) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "10e00d55c5daaec417685bb10dc8efb3406ece5659a0e98c5bac60aa94436792"
+  },
+  {
+    "id": 359,
+    "actor_id": 34,
+    "evidence_type": "domain_observed",
+    "description": "Domain alpharelay.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "f3037e2b43d9cd73e841cfc34c725c18a3a307d4116289d9c9f93515e3ad3a28"
+  },
+  {
+    "id": 360,
+    "actor_id": 34,
+    "evidence_type": "domain_observed",
+    "description": "Domain darknode.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "44db267d7aec56de0bd83da2f341fa7d9c78fe4167f44f59a414f6d003cbdace"
+  },
+  {
+    "id": 361,
+    "actor_id": 34,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexusshop.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "c9415bd50bed7c8ec8f8486757490b88708375bfc776f5e3f5ca8257306e12ac"
+  },
+  {
+    "id": 362,
+    "actor_id": 34,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultlink.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "7a338acc3f306bd27b14399bfcd1ff3870c0e3fbd103c84ca3d8dab3fed9e475"
+  },
+  {
+    "id": 363,
+    "actor_id": 34,
+    "evidence_type": "domain_observed",
+    "description": "Domain secureshop.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "d9653fcd8375f589ce0ea330a6c5cda21d95ecd7c68adea2ebe9b26ef67f5a8e"
+  },
+  {
+    "id": 364,
+    "actor_id": 35,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'mystic_code' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "6460aed9f629e514e014f3647156d76919313ae6543ed68c927921a01b32493c"
+  },
+  {
+    "id": 365,
+    "actor_id": 35,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'mystic_ops' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "30ec45f19a69e56319a6c983ddc69fdc2372e69662d95b3f9f4872eba56eac3a"
+  },
+  {
+    "id": 366,
+    "actor_id": 35,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 5194B3754EB33D6D... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "f647a74e434b3c5d438d4ccf6705d92ec62008ad0501e2884ac5d7594eb60194"
+  },
+  {
+    "id": 367,
+    "actor_id": 35,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key D5D618780B0E8565... (RSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "8fd37958d5b7d9e32cea24eb515b54be2728940c9b740d64b702c06a59ff3c1f"
+  },
+  {
+    "id": 368,
+    "actor_id": 35,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key CA91005D12E74A1A... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "5f783ce19c92a8eafdf91843d8931d8ca303188dbacab10c06476e8a3a248bde"
+  },
+  {
+    "id": 369,
+    "actor_id": 35,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3RjSFo4KSxkKtm9J... (ETH, balance: 34.6207) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "ebb3c9ce3f90260de3cecb01313a54ceca30023b25f41023043703936129029a"
+  },
+  {
+    "id": 370,
+    "actor_id": 35,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3cRATn3D1DEdEjxL... (BTC, balance: 42.3767) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "fcfb8e7615036dc888ab41cca569b6317267d083d7bb2df1d1f2eef8e380c6a6"
+  },
+  {
+    "id": 371,
+    "actor_id": 35,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1B2qu2gNn7wJEofw... (BTC, balance: 16.384) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "edf314d171109d717e34f3653bfd8d501524ca296f1fcb2be6fcafd9ee5f0cbf"
+  },
+  {
+    "id": 372,
+    "actor_id": 35,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostmarket.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "64c6cf2aac809c8b889b32c4517c911ae6b76f758e3f3d6e6fe31f62c66b65bf"
+  },
+  {
+    "id": 373,
+    "actor_id": 35,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexusservice.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "b990aed8ef416fc35bfea0dd6e3765194866c06e247c95de3e098ec4a632fdc5"
+  },
+  {
+    "id": 374,
+    "actor_id": 36,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'spartan_ops' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "ef61107712d4f36b99ff933b48ad87dcb71c696d88d8a73deccf293b48ba845a"
+  },
+  {
+    "id": 375,
+    "actor_id": 36,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'spartan_net' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "4f7c2685aaeda80ef2172f540b00469a8ada7b3390c299486c2ab19f91682eb3"
+  },
+  {
+    "id": 376,
+    "actor_id": 36,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 733662D41C483085... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "7160e3228cacd7b308a275f8c579fdf3be957c38cd0dff81e0915c0816b2bf67"
+  },
+  {
+    "id": 377,
+    "actor_id": 36,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 31JpnQQafUWm9QEk... (BTC, balance: 24.99) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "e7d60f92e1cbd67e46ae3cc99891fb4f82f49b5b59fd106c216fb073887e18d4"
+  },
+  {
+    "id": 378,
+    "actor_id": 36,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3LRgQnYK2nv9xLdb... (BTC, balance: 45.5673) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "b0e6d8a9d877692da3067d937dc44259e017914d5362ef2fdfd753eea5d5cd3c"
+  },
+  {
+    "id": 379,
+    "actor_id": 36,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostservice.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "de6fa50733a0a5dd25947656fbdc0fb967cdd148bfe13ea16025ed370a0e8ea6"
+  },
+  {
+    "id": 380,
+    "actor_id": 36,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphashop.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "2196595f5ea91ac7ca5ba09f2b44185533f11319bdf370bc19cc182ebaafd730"
+  },
+  {
+    "id": 381,
+    "actor_id": 36,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphanet.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "3419dd0c88807894a892ff5a47a20f849dc185984dd89a3af5da3155c856cbec"
+  },
+  {
+    "id": 382,
+    "actor_id": 36,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultproxy.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "1c270efc9e6e14c5e3611b07be4651a32f4ce3cdf19709d40fa3ae8889e67218"
+  },
+  {
+    "id": 383,
+    "actor_id": 36,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadownode.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "679528dc6b876bddaa5f355d7e70424a26098ce323c9ad484e7fdd6ab29dd846"
+  },
+  {
+    "id": 384,
+    "actor_id": 37,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'viking_shield' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "e267e9c035fa0179ba2ca3f68d5684ff15c38ce8b0395796beecfe513dada56b"
+  },
+  {
+    "id": 385,
+    "actor_id": 37,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'viking_ops' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "87fd00475c042a24aecddbc29063544b417bcbe70fca6ab7693c73787f8c0ed7"
+  },
+  {
+    "id": 386,
+    "actor_id": 37,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key A2943B73F7D93597... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "587f6759ebf4f14668ae92c9c8fc3c6261566769cbfcbfc781b7c3ab1e0bc902"
+  },
+  {
+    "id": 387,
+    "actor_id": 37,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key A1BEE6C15C8C6230... (RSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "d68e2479661b50815b0550c15394bf5683bdacd97337c55d82d3fefc7ebc3f76"
+  },
+  {
+    "id": 388,
+    "actor_id": 37,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 2A0472BE870A8AA1... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "1084875e0d0bcb7d81b80787cf271e9ddc38f1d4522de7787d56d91bc62f5c42"
+  },
+  {
+    "id": 389,
+    "actor_id": 37,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3w8DMBQKPT4peN4D... (BTC, balance: 48.9011) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "9b296e2692e532b5604435fcea7962424089daee306ed5d2378e6235ded50a6f"
+  },
+  {
+    "id": 390,
+    "actor_id": 37,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 342uTWkWh12m8ERF... (BTC, balance: 11.4505) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "dad18906f659a3acf8b2527f3384e2daa19bf217ebf4fecf61677d8d0fa7b4b6"
+  },
+  {
+    "id": 391,
+    "actor_id": 37,
+    "evidence_type": "domain_observed",
+    "description": "Domain phantomservice.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "30f19584d699a3a0bab86ee0626364c7708a6c5b3a6d91c18f893131125d0b3a"
+  },
+  {
+    "id": 392,
+    "actor_id": 37,
+    "evidence_type": "domain_observed",
+    "description": "Domain cyberservice.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "df768c0edba30fb68a111b7f4dda0475c7081cdf7764493ed91190904d63e164"
+  },
+  {
+    "id": 393,
+    "actor_id": 37,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphagate.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "712002913d1fc7c05c74324c6c0159a99d6557d1f53ed834be5b8b22b968bd11"
+  },
+  {
+    "id": 394,
+    "actor_id": 37,
+    "evidence_type": "domain_observed",
+    "description": "Domain secureshop.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "913713a16a9d5d778c7f728bd0661a3279dd2b28f3b13f0b066e319c5a137406"
+  },
+  {
+    "id": 395,
+    "actor_id": 38,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'zeus_bolt' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "680f5f99734c5effd3092a6dc5a0384d563cb069acc416282095f430ca604f60"
+  },
+  {
+    "id": 396,
+    "actor_id": 38,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'zeus_ops' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "708e2970dc80db9b0db80f6cec75a14592b4346ef4f9b6309c5be3eb6b5fee5e"
+  },
+  {
+    "id": 397,
+    "actor_id": 38,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 31B4B32347A4C1F6... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "702a7c87ba743156e169d05eada7e464705b44122ef4652b9e37150b1acfa1a7"
+  },
+  {
+    "id": 398,
+    "actor_id": 38,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3VvwyNVebQ3vPZCS... (XMR, balance: 47.2133) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "56073615f96bf83c4c31282dfec3b74a145ba528fa7252b42a7341d591c605b0"
+  },
+  {
+    "id": 399,
+    "actor_id": 38,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostservice.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "36351e46abbe6a347b674c2c07ee4cc7efbc5636a4d3504ec8e4bd57854a5b4c"
+  },
+  {
+    "id": 400,
+    "actor_id": 38,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadownet.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "02b66bea6793f067ee1ee9cef6d64a9b22da4bd8051088b061ba8796dec27824"
+  },
+  {
+    "id": 401,
+    "actor_id": 38,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultproxy.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "a1f8069e51480100935aad11427512d36d12f1bc81c682fbd81f308a9b63cbb0"
+  },
+  {
+    "id": 402,
+    "actor_id": 39,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'mars_rover' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "d4929fbd34c016b8967b59da104ea1368d237ed600618a0d83657fe9a5f7bf3e"
+  },
+  {
+    "id": 403,
+    "actor_id": 39,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'mars_ops' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "1b2f3f63d5fef44494f6d519f768fa524e75cc75e4b540784a8e5ecd87bac2a5"
+  },
+  {
+    "id": 404,
+    "actor_id": 39,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key FA646EB1AC52BE64... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "4cdc6bd65311aaefe0d3c23ef931c4a58b6d869109b5e2d64a29f854f4f606d3"
+  },
+  {
+    "id": 405,
+    "actor_id": 39,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key D2464597A10C09F1... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "3b4d71e8a53e4232173df1c27256a0655a4982aad0ec793d911545336b8f16a6"
+  },
+  {
+    "id": 406,
+    "actor_id": 39,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 9D4BD59A763FFD05... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "dd4d2ed9355f76131a67f2e2518209a9763241a1f63514af73e04f2f2ad545f9"
+  },
+  {
+    "id": 407,
+    "actor_id": 39,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3xUYFAwh7z2vKPHi... (ETH, balance: 48.3124) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "d7edd2dc70d1050d9f7b06a5c933b0f9665c7cd360175c35e335a67ac84aa1ce"
+  },
+  {
+    "id": 408,
+    "actor_id": 39,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3oD766jwk7Nrxa14... (ETH, balance: 14.1696) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "e9ad9bbf4419c43502b9dad4a90bf96b60911381eeec1da593f51c37599f86b7"
+  },
+  {
+    "id": 409,
+    "actor_id": 39,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegagate.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "fe9f804c34c8b8b8b7d59e08280b07f181b66d0024226f616e049ea9335dd095"
+  },
+  {
+    "id": 410,
+    "actor_id": 39,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkhub.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "1168a7de676fef56bd9d2fc5704e42f7f8e18e512446cd35a18cdf0f99df4450"
+  },
+  {
+    "id": 411,
+    "actor_id": 40,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'atlas_node' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "dabfdfa859123049af075ecf8ceab5648fcb18b441db099bf827b8db9f1d1dfb"
+  },
+  {
+    "id": 412,
+    "actor_id": 40,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'atlas_ops' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "71c746b7483c2d8b2b048a0234c2dae59151674e69626785fe6b87a8f73f954e"
+  },
+  {
+    "id": 413,
+    "actor_id": 40,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key DE3BECDB4DE20667... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "86c34e9d8506a780d2c7bff9dc3b588ddffa8709ae3dc0d004cf9b849bd25bbd"
+  },
+  {
+    "id": 414,
+    "actor_id": 40,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3xRqv6yB4yebydQ2... (ETH, balance: 11.2468) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "cf98bdfe450931076ad9f5a68c94a2f0183c849053de5d79efea9bb46bc7ebb3"
+  },
+  {
+    "id": 415,
+    "actor_id": 40,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3GkoBVeSa64uoBp2... (BTC, balance: 28.7541) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "5bd159eedadc3793d64af600eed36b6735c6dd7c6cf03c96014e785c82b43f19"
+  },
+  {
+    "id": 416,
+    "actor_id": 40,
+    "evidence_type": "domain_observed",
+    "description": "Domain darknode.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "2bd1d8acd10eea4b03d9796bfa51c7dfbfb9da11c63ebeb92730b6f7784a1b5b"
+  },
+  {
+    "id": 417,
+    "actor_id": 40,
+    "evidence_type": "domain_observed",
+    "description": "Domain secureshop.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "7ffecc9164f4a50f664f7003ea38b10290e0c8764fda7e725684b2610b4974be"
+  },
+  {
+    "id": 418,
+    "actor_id": 40,
+    "evidence_type": "domain_observed",
+    "description": "Domain phantomnode.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "a4ba98087c96f316877ce4de9576b1c9d268de38df47b1ab7a4e53e1be36eb91"
+  },
+  {
+    "id": 419,
+    "actor_id": 41,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'orion_key' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "ed8ada848f3d2b968d67423122d25fba8ca4bd018bcd0cd3495f543707467c6d"
+  },
+  {
+    "id": 420,
+    "actor_id": 41,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'orion_ops' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "cce3d4fc58762708106a17dc8f3bd06008787503022b2b348a44e86ebec971b9"
+  },
+  {
+    "id": 421,
+    "actor_id": 41,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 4DF93529146E6146... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "e46f37036f2fdaaf03dd0db04992e46e95eacd57029ce941b91d9f5893219acb"
+  },
+  {
+    "id": 422,
+    "actor_id": 41,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1G6yDxn8Xsbo6MaH... (ETH, balance: 36.7711) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "250d5ed76db7a5644aab5833b885036a7549823bc964f717a687a48a975cab74"
+  },
+  {
+    "id": 423,
+    "actor_id": 41,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1veNngRTSMUHxXiv... (BTC, balance: 23.9828) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "a5b7245122459736e44420ab0cce9b45b99e0270d4f6caeac8a8505c1f723b0d"
+  },
+  {
+    "id": 424,
+    "actor_id": 41,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultnet.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "8415c759a791e627a86ef3feb3ca02941e149f0b800f04b54503d1d62400ec9c"
+  },
+  {
+    "id": 425,
+    "actor_id": 41,
+    "evidence_type": "domain_observed",
+    "description": "Domain secureproxy.bit observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "6dcf9f211ca30f83384731adb96b9050b12ceedc641e0a76a090e96cb5e7048f"
+  },
+  {
+    "id": 426,
+    "actor_id": 42,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'nexus_core' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "e1e6ed0d5240523d2642b396bd655b1e2c4703c1b79a0308fb0e0dc3dd09f1d8"
+  },
+  {
+    "id": 427,
+    "actor_id": 42,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'nexus_ops' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "1244d6ea2060d319cb8f1f0e45f6c100edad8d70b2722751755589b8cd2d2cce"
+  },
+  {
+    "id": 428,
+    "actor_id": 42,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key D8F6651E38C1443B... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "907455a59398e0e14773b888e6b9272b2e3d0bcb24835802c7f9a0063c068b0c"
+  },
+  {
+    "id": 429,
+    "actor_id": 42,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 2A36462C17D2565D... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "7343ad16ffe0c7ab648e88d7d831389b7cf693e1d2169ace88733273b4c883ed"
+  },
+  {
+    "id": 430,
+    "actor_id": 42,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3WmEgLyjSHVmF9WF... (BTC, balance: 21.3151) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "46fe06478e3099306cf1f58b1c6a6c3c4fbe3dc56145d7868015d054d44ff232"
+  },
+  {
+    "id": 431,
+    "actor_id": 42,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 163QJdELUWeJGHMR... (BTC, balance: 37.1466) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "f1e9300f6449436df1af76119d614f41ad6350d27372a3642bb64d7514fb3bf5"
+  },
+  {
+    "id": 432,
+    "actor_id": 42,
+    "evidence_type": "domain_observed",
+    "description": "Domain cyberhub.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "8ef17282780293b6685470eeda0b582849638797841aee5227a915665134e092"
+  },
+  {
+    "id": 433,
+    "actor_id": 42,
+    "evidence_type": "domain_observed",
+    "description": "Domain darkshop.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "054de884445fa765c55eef19e132b50fdceb2ac70b1530bcbdcbbdc7423248f5"
+  },
+  {
+    "id": 434,
+    "actor_id": 42,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegashop.onion observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "df774b883cdebc87b2ef3b63f828174599c4c89b1a5046d6a4ca698e3f7ec32e"
+  },
+  {
+    "id": 435,
+    "actor_id": 42,
+    "evidence_type": "domain_observed",
+    "description": "Domain cyberservice.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "c1909109ab514072f7742d360bf746e1d223070b41bb17810fb819f525631c94"
+  },
+  {
+    "id": 436,
+    "actor_id": 43,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'cipher_wolf' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "78fb8cae1477a37fb77f8ee2b9bb2e8c3a47bc4abf4cd284505562f1049155e3"
+  },
+  {
+    "id": 437,
+    "actor_id": 43,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'cipher_ops' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "7862a11960433639ea7e19d111419533dad1335dc2ce5577b8fc32b389052e41"
+  },
+  {
+    "id": 438,
+    "actor_id": 43,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 0384EDEFE7BE16E8... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "22828d116498ae7862930d14c279afc0df0a44704198a54000cba8bba72d3987"
+  },
+  {
+    "id": 439,
+    "actor_id": 43,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3rJG7DXHewH8s3yz... (BTC, balance: 48.5802) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "b9811aaad3fa0431c25bc2f65514eee7edcc4a6d22c3759fc3f07a92ac2de790"
+  },
+  {
+    "id": 440,
+    "actor_id": 43,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1igwFdcCSKCdrPSj... (XMR, balance: 45.4566) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "1c671315db7a630ca115acb560b039cefd65aaee35eb0ae96d49f18658490290"
+  },
+  {
+    "id": 441,
+    "actor_id": 43,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 36XjobN2pme3F59d... (BTC, balance: 5.1408) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "07a08d0e5cead0ee8ccc6ec4b137ed885c0caad7fb87034823c0ddc9453bb9c8"
+  },
+  {
+    "id": 442,
+    "actor_id": 43,
+    "evidence_type": "domain_observed",
+    "description": "Domain darknode.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "da84a8ea208afa43560f402f63fc52ef1ec939308665b8b075bf97bce83fbe33"
+  },
+  {
+    "id": 443,
+    "actor_id": 43,
+    "evidence_type": "domain_observed",
+    "description": "Domain cybernet.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "e2a0511bd959dcb2ee20f5580f1b9092e5c74a34fe50eb8d68673251b1e22da4"
+  },
+  {
+    "id": 444,
+    "actor_id": 43,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowgate.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "3a1fed9de811324053ffc32fde25dfe815e2c8c7cd46732c60bf22fef888d6eb"
+  },
+  {
+    "id": 445,
+    "actor_id": 43,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultshop.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "75a721e9e56fa441f63be2c6d625a0149e324f1157b881cdc4753d42ad89c7d7"
+  },
+  {
+    "id": 446,
+    "actor_id": 44,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'shadow_net' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "a4219af8267e5e873bef23630d75d1d24fba5df674aafe351faeb9bd8cc4650d"
+  },
+  {
+    "id": 447,
+    "actor_id": 44,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'shadow_ops' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "5ea8814d10fa3ae0f8b757957e6e526f083547b3f4688711abdd2752d955b469"
+  },
+  {
+    "id": 448,
+    "actor_id": 44,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key E9289A2A4D51EAEC... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "619976fc1e9e102965e2ebee718545d0bc135b622a9f9b4de280c2ff2094835b"
+  },
+  {
+    "id": 449,
+    "actor_id": 44,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3RVXXpPaRahkhE1z... (BTC, balance: 18.873) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "2541d260e78c29b0c98bc5f848592dc70648b654c62cd5beecca0b90e899bb81"
+  },
+  {
+    "id": 450,
+    "actor_id": 44,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1hR47aUbA99F1qRm... (XMR, balance: 27.7078) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "ce2d58634263ce32e0f5447c4a4b72613a9c22bd1ef2ec908969318855914ce5"
+  },
+  {
+    "id": 451,
+    "actor_id": 44,
+    "evidence_type": "domain_observed",
+    "description": "Domain omeganode.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "ae1a794a26ed3bef7a7858916a17ccf04400bb5f26003bc61d38ed868685cc10"
+  },
+  {
+    "id": 452,
+    "actor_id": 44,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultmarket.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "0c5779ec1ae7c5508c7a223267f13baadc20e1458d4f743e17553500804b6f25"
+  },
+  {
+    "id": 453,
+    "actor_id": 44,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphaproxy.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "6d7329648f0a68123284db1b22aee57e3515ab1ad1b1462f30646c28d5c26662"
+  },
+  {
+    "id": 454,
+    "actor_id": 44,
+    "evidence_type": "domain_observed",
+    "description": "Domain vaultlink.onion observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "b122b817e4472beeb21ac8b6d2e4dec79acb6f6f32f5d08cb8ab657cae85a348"
+  },
+  {
+    "id": 455,
+    "actor_id": 45,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'ghost_link' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "112f7a146e98457a7665ddb0dd2caf0152be6e833399be8caea94714fe4e0b46"
+  },
+  {
+    "id": 456,
+    "actor_id": 45,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'ghost_ops' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "b7badbbea73b741bf3cb4b8712362e3c97f1b55eb4a1286e1ab25c20bd153bf4"
+  },
+  {
+    "id": 457,
+    "actor_id": 45,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 056415C532130E33... (RSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "3df1568dda9f71b316fc89cff0c5ddecba4d2db6d6f8cb7274e3984fd2a89b1b"
+  },
+  {
+    "id": 458,
+    "actor_id": 45,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1H9Tt6itoemAxWje... (BTC, balance: 27.3568) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "1da1fa7bb6c7ea011358a682bcea07cf90d5c6d426023cd1160d31637b3e5492"
+  },
+  {
+    "id": 459,
+    "actor_id": 45,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1VTAJ4aM5iTzymSv... (BTC, balance: 37.0521) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "34ed4e06d2dd96aa7a29a612f137898634069c5f49a3eadffec99c565bf41a88"
+  },
+  {
+    "id": 460,
+    "actor_id": 45,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1hZ97NarDsfMUYp7... (ETH, balance: 38.7103) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "20f1532a0c967726d5389ce32f6de88e296149b4ab74f131a11f31f957ce96c0"
+  },
+  {
+    "id": 461,
+    "actor_id": 45,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1wMRU4sxgGd55QJi... (XMR, balance: 41.1508) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "bb95126cf291400ea2740fa313e2decee76680f5543808597d2d17cfabc1dd70"
+  },
+  {
+    "id": 462,
+    "actor_id": 45,
+    "evidence_type": "domain_observed",
+    "description": "Domain darklink.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "ad68c15bb7885feb8f6a8131c68c775cb692f4dc0565e635e0f00e170dc09bf3"
+  },
+  {
+    "id": 463,
+    "actor_id": 45,
+    "evidence_type": "domain_observed",
+    "description": "Domain phantomnet.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "2e42ddb09521186f1e812bd9d3158b42cd6f97dbec8dc61fc71799c40fbe2297"
+  },
+  {
+    "id": 464,
+    "actor_id": 45,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowrelay.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "116a8a462b6c5c9ad8e82e97dbf11bd91526b38ccd068710e996172037c6bacc"
+  },
+  {
+    "id": 465,
+    "actor_id": 46,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'phantom_rust' observed on GhostBazaar",
+    "confidence": 0.95,
+    "source": "GhostBazaar",
+    "evidence_hash": "80c7f16808dd39ba72d5f9e22edbad4c7df61d3a635979d3a18d41debc9bf081"
+  },
+  {
+    "id": 466,
+    "actor_id": 46,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'rust_ops' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "0cb89c4bc0689eb19fec6e7af5053551d0b71f2b89061ceda46adabfdff8f85e"
+  },
+  {
+    "id": 467,
+    "actor_id": 46,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 90D0E8DBA76588C1... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "439b3a583901f8ae929750c42b16046be1c064ae1d52b101e87189c69750e7ba"
+  },
+  {
+    "id": 468,
+    "actor_id": 46,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key AD3C81DF5C7EAC6F... (RSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "b71c1a9de60c07ff3c890f3b59950082535b9aa7d54ca75c35b8b9ef4780f15b"
+  },
+  {
+    "id": 469,
+    "actor_id": 46,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 2AF2E861C8ACDA48... (ECC/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "d84c09a4c14fd1cbc9fdbc9b2a62ab4e27e90e80444d4dc372db3d415f8241a5"
+  },
+  {
+    "id": 470,
+    "actor_id": 46,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1wdea6Tb7Ht6VMqP... (XMR, balance: 49.7458) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "3927a19697f74fa6c5316a3c893621f43557b9610c199d47eed1902d28932a71"
+  },
+  {
+    "id": 471,
+    "actor_id": 46,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1AkvC22W9s7DKDjw... (BTC, balance: 8.2827) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "eb8d93f5a6114098f6df05f5eb561146c736dd38b3d590ec3e4e9849b9605bae"
+  },
+  {
+    "id": 472,
+    "actor_id": 46,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1xVtRkpdcRZNd4A2... (BTC, balance: 35.8401) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "d4b9a22ba4b8ae8c0fb5f2cb0b9d50ded81acaa253198cec199a5a34e054f182"
+  },
+  {
+    "id": 473,
+    "actor_id": 46,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexuslink.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "6c109ffd031925b1207419fedb0fd0007d2fc28a4c73629e0980c067b63630d0"
+  },
+  {
+    "id": 474,
+    "actor_id": 46,
+    "evidence_type": "domain_observed",
+    "description": "Domain alphashop.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "f5e136c64c9432d55c6e4905fc90a1818c496d1895b333368ddf49e25b720803"
+  },
+  {
+    "id": 475,
+    "actor_id": 46,
+    "evidence_type": "domain_observed",
+    "description": "Domain cybernode.com observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "545ef4d8c3e3696389efd96afd71b1aba223b28ac2f6454d6bfd2a8326d2901b"
+  },
+  {
+    "id": 476,
+    "actor_id": 47,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'dark_horizon' observed on DarkForum",
+    "confidence": 0.95,
+    "source": "DarkForum",
+    "evidence_hash": "b2426f94dfa2f55a9a902a8e44553e68b6d2da44c0a4177fc51eece695a9d7d0"
+  },
+  {
+    "id": 477,
+    "actor_id": 47,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'horizon_ops' observed on CyberBoard",
+    "confidence": 0.95,
+    "source": "CyberBoard",
+    "evidence_hash": "40f88315eac711acc2606568164674531eb96d6a351e90667a0c02e61e91c356"
+  },
+  {
+    "id": 478,
+    "actor_id": 47,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 6125694ADFE4D6EE... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "a0d1b36d9b0c85e8c1cadd532ec5e523cea1096a31eadcab9bbb6a65a46e812d"
+  },
+  {
+    "id": 479,
+    "actor_id": 47,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 31BCD80B0E0044BC... (RSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "9b9b9b60b4bc03afb52a5cf2352a5b5f4beae3717be3567a9f7f69fa5cd8032b"
+  },
+  {
+    "id": 480,
+    "actor_id": 47,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 1y41DpB7DbXrmKT9... (XMR, balance: 9.3515) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "36d314e7fdb0bf5da356449c32aa89ef503308bc9f3fcc2ac620770ffea7d4fb"
+  },
+  {
+    "id": 481,
+    "actor_id": 47,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexusnode.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "4d89175de1822d0960d6d86cdc95e19c57a451fdccb09a4938667584f0e84a78"
+  },
+  {
+    "id": 482,
+    "actor_id": 47,
+    "evidence_type": "domain_observed",
+    "description": "Domain darknode.onion observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "f0f17ac84cdc50617db744402b2eebcfd3339a8527c4329356b3673a26da905c"
+  },
+  {
+    "id": 483,
+    "actor_id": 48,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'night_shade' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "7c6ba49a50ae70d3315932446521fc7ab383987abb34b0745fe43006ecf1557f"
+  },
+  {
+    "id": 484,
+    "actor_id": 48,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'shade_ops' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "b5d3efee495620dc34728d3bf3692589bb314e32f8fa9fd945853a8d0c498008"
+  },
+  {
+    "id": 485,
+    "actor_id": 48,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 1AB6469876AAF300... (DSA/2048bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "c0e03a7eeeee70d829895f565d9f71d3b33b3511f2cf1c29b79a5ab29ebf69b3"
+  },
+  {
+    "id": 486,
+    "actor_id": 48,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 257FA60FE2C0570D... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "fd1ba24f101b08acd4c8732ace1794fe78adc6ca10a75f7ac9695bc3475afebd"
+  },
+  {
+    "id": 487,
+    "actor_id": 48,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3gj2yrf9VFjyMkCx... (ETH, balance: 6.1481) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "0a54a5420d2230fa11e29704bc695862db18f27bc8396eab0856ff65e38ee280"
+  },
+  {
+    "id": 488,
+    "actor_id": 48,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegagate.net observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "97006a55236e4effe0864b83737409a60ce6735be3f7246392df1d8c993b98a7"
+  },
+  {
+    "id": 489,
+    "actor_id": 48,
+    "evidence_type": "domain_observed",
+    "description": "Domain securerelay.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "e97479b7e90828a6bac3fb96282489641d58a214aac74297042f8b02a1636531"
+  },
+  {
+    "id": 490,
+    "actor_id": 48,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadownode.net observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "7c7b70aea74d4e7b67bb7729c762081d9b6f8929ae9877d9add0b83de6a9459e"
+  },
+  {
+    "id": 491,
+    "actor_id": 48,
+    "evidence_type": "domain_observed",
+    "description": "Domain shadowhub.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "fe4815722ce817b79066a72e89e92c4b16307a15fa5c5b474dfb1996a51e2784"
+  },
+  {
+    "id": 492,
+    "actor_id": 48,
+    "evidence_type": "domain_observed",
+    "description": "Domain ghostnet.xyz observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "ab1b57f419fc6eae60e6c79c68b3c9cbbb19bb88d6a38392d093e2bb2c3e058e"
+  },
+  {
+    "id": 493,
+    "actor_id": 49,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'red_phoenix' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "176d3c49964383441c34397980498113803cfb5fa9e5235ebd034e1c36e326f2"
+  },
+  {
+    "id": 494,
+    "actor_id": 49,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'phoenix_ops' observed on ShadowMarket",
+    "confidence": 0.95,
+    "source": "ShadowMarket",
+    "evidence_hash": "82acbb549326cc80d7d269a8707b95a984897b5461f849b19ce1a9baaadefc5f"
+  },
+  {
+    "id": 495,
+    "actor_id": 49,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key AC214F391375CA6F... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "501fc259643022c1c252bd1dba59b471a8125a34d16a88c6029c6b0020009863"
+  },
+  {
+    "id": 496,
+    "actor_id": 49,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 766608F6C9438289... (ECC/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "fdbd14f40c16873becbafb2b8c03af0307d9e9dd9e170084f146fad389b008a4"
+  },
+  {
+    "id": 497,
+    "actor_id": 49,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key 2EA2ABEC9312E831... (RSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "55602a17e87adf35b8951e58a4873b79f89472b9bc0da7626fbc1a96937db783"
+  },
+  {
+    "id": 498,
+    "actor_id": 49,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3Ph7RR2TZ1Jetc3u... (BTC, balance: 39.248) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "7aac0f9d436be35bc6b4ed0fd64b0ea126c51acf65d68cafe5340a88e01170c1"
+  },
+  {
+    "id": 499,
+    "actor_id": 49,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3v4qVxcBiWfGhbaa... (BTC, balance: 3.0963) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "ff606595a232f54923b6d4f50712aee252cf5f1e8abcd17959d31b526b30c9fe"
+  },
+  {
+    "id": 500,
+    "actor_id": 49,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 37r5mcqvKhNzaCFS... (ETH, balance: 24.8088) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "52c8a29638c9099708c5396525709deaa35fb03290def573d304df279cecf4b7"
+  },
+  {
+    "id": 501,
+    "actor_id": 49,
+    "evidence_type": "domain_observed",
+    "description": "Domain omegarelay.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "df94c034635fa67a2c372865a2f5c4a033bcce72e0621643f0a57d0dda0b6488"
+  },
+  {
+    "id": 502,
+    "actor_id": 49,
+    "evidence_type": "domain_observed",
+    "description": "Domain omeganode.com observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "0cc9ba83c6eb9d939f4d3105dbef1694ed7b32ddbf34fe889cd4472e973b1164"
+  },
+  {
+    "id": 503,
+    "actor_id": 49,
+    "evidence_type": "domain_observed",
+    "description": "Domain nexusproxy.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "9997e5ef1545d2864e3310b9aa1632f987b55a2ed7bd69e1db44b0fd45b2774d"
+  },
+  {
+    "id": 504,
+    "actor_id": 50,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'blue_orion' observed on NexusExchange",
+    "confidence": 0.95,
+    "source": "NexusExchange",
+    "evidence_hash": "e846b4bb8cc22df2c2a15971543cd73b4abc58643c728fc0abbfa86b3833a01f"
+  },
+  {
+    "id": 505,
+    "actor_id": 50,
+    "evidence_type": "alias_observed",
+    "description": "Alias 'blue_ops' observed on TorMarket",
+    "confidence": 0.95,
+    "source": "TorMarket",
+    "evidence_hash": "c33a87bfe7a0e229a6576129a02779a579117b0ad5e60e27673585dcde34d360"
+  },
+  {
+    "id": 506,
+    "actor_id": 50,
+    "evidence_type": "pgp_key_observed",
+    "description": "PGP key DE860B17E40545C2... (DSA/4096bit) observed",
+    "confidence": 0.98,
+    "source": "synthetic",
+    "evidence_hash": "9fe6a1f4018c66c113bde0084472c8f9c36cdc0e8d1f692d1020f1acd2bbb547"
+  },
+  {
+    "id": 507,
+    "actor_id": 50,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 124mpXrgjZ4mhRR8... (BTC, balance: 2.8327) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "533f3d8461bcb9794ffe2c628af4f48f4a4c8b27dc7ad2d9d4ddcd453b4b22d1"
+  },
+  {
+    "id": 508,
+    "actor_id": 50,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 3B3MfFHcU85FYVjM... (ETH, balance: 11.5268) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "6dabf79486affcf66a35eb4e3f9547c34e65da3e37e62d52f6830f1c669a060b"
+  },
+  {
+    "id": 509,
+    "actor_id": 50,
+    "evidence_type": "wallet_observed",
+    "description": "Cryptocurrency wallet 18jn3ESmx2qGbJx4... (ETH, balance: 10.8272) observed",
+    "confidence": 0.9,
+    "source": "synthetic",
+    "evidence_hash": "d70a5cf5f833a9cd9f1f83430299780b8f1bf60fc888b453c5a018bb3b9bcac4"
+  },
+  {
+    "id": 510,
+    "actor_id": 50,
+    "evidence_type": "domain_observed",
+    "description": "Domain phantomlink.xyz observed (TOR)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "59c02ffab7461ffa23db1cc509852bd2cbe91d332eaabf76c42d0f536661c761"
+  },
+  {
+    "id": 511,
+    "actor_id": 50,
+    "evidence_type": "domain_observed",
+    "description": "Domain secureshop.bit observed (clearnet)",
+    "confidence": 0.85,
+    "source": "synthetic",
+    "evidence_hash": "8af36bac39df3b34d497eb22e17c55bbcc84dc8661a84f4099287ebe2b0b1c96"
+  },
+  {
+    "id": 512,
+    "actor_id": 1,
+    "evidence_type": "pgp_match",
+    "description": "ShadowAlpha and DarkWolf share PGP fingerprint, wallet address, and alias 'phantom_buyer'. Writing style and behavioral patterns highly correlated.",
+    "confidence": 0.905,
+    "source": "attribution_engine",
+    "evidence_hash": "c94d1b6936c33a5b5b00ba898e2689b117110cfb1f60cb28b141a15d0385184a"
+  },
+  {
+    "id": 513,
+    "actor_id": 3,
+    "evidence_type": "pgp_match",
+    "description": "RedCipher and NightFox share PGP key and domain infrastructure. Both use technical writing style with very similar vocabulary and sentence structure.",
+    "confidence": 0.711,
+    "source": "attribution_engine",
+    "evidence_hash": "28377ba952b8b3c870d608b8b8ef0cb581ab6464ea429b47fd005f126ee3b698"
+  },
+  {
+    "id": 514,
+    "actor_id": 5,
+    "evidence_type": "wallet_reuse",
+    "description": "GhostProtocol and CyberPhantom share cryptocurrency wallet and IP address. Similar alias naming patterns observed.",
+    "confidence": 0.5835,
+    "source": "attribution_engine",
+    "evidence_hash": "7cf37fee8ce8d9cb409380366018123636e601819280bf05d9f3284da1890092"
+  },
+  {
+    "id": 515,
+    "actor_id": 7,
+    "evidence_type": "weak_correlation",
+    "description": "Weak correlation between ZeroDay and IronClad. Only temporal posting patterns show minor overlap. Insufficient evidence for strong attribution.",
+    "confidence": 0.2105,
+    "source": "attribution_engine",
+    "evidence_hash": "2ed23cd0149d2190152a8be8c292d3bce27bf1bf69493893527ea9b90cb30873"
+  },
+  {
+    "id": 516,
+    "actor_id": 9,
+    "evidence_type": "weak_correlation",
+    "description": "Minimal correlation. Behavioral patterns show some overlap but stylistic and infrastructure signals are divergent.",
+    "confidence": 0.1905,
+    "source": "attribution_engine",
+    "evidence_hash": "86e38a0adfb541dd7b535e776fa9617422773d775db8a0fcd19ae69fb0e291b4"
+  },
+  {
+    "id": 517,
+    "actor_id": 11,
+    "evidence_type": "weak_correlation",
+    "description": "Moderate correlation. Stylometric analysis reveals similar vocabulary patterns. Behavioral profiles partially overlap.",
+    "confidence": 0.384,
+    "source": "attribution_engine",
+    "evidence_hash": "f1753e81c2c24f21c3ca968f8ffe04045a7fcb5d8b521d43e085330f588da684"
+  },
+  {
+    "id": 518,
+    "actor_id": 13,
+    "evidence_type": "stylometric_correlation",
+    "description": "Strong stylometric correlation between CarbonFiber and TitanForge despite different thematic focus areas.",
+    "confidence": 0.3875,
+    "source": "attribution_engine",
+    "evidence_hash": "918ea1820efb2a2268ff473c18f47418d0fad94c0ae031e5137df573f41392dd"
+  },
+  {
+    "id": 519,
+    "actor_id": 16,
+    "evidence_type": "weak_correlation",
+    "description": "Moderate correlation based on behavioral and stylometric signals. No cryptographic or infrastructure overlap detected.",
+    "confidence": 0.3025,
+    "source": "attribution_engine",
+    "evidence_hash": "7896395ea6e7a846e28ad2fa994edd96e6461692278fba9971e6982f4862d0d3"
+  },
+  {
+    "id": 520,
+    "actor_id": 38,
+    "evidence_type": "pgp_match",
+    "description": "ZeusBolt and DarkHorizon show very strong correlation across multiple independent signals: shared PGP, shared wallet, matching infrastructure, and highly similar behavioral/stylometric profiles.",
+    "confidence": 0.8785,
+    "source": "attribution_engine",
+    "evidence_hash": "13a16296fa058d02d5c89037cf3ab18c242ae937843a55c173cfc4ff4c5656d7"
+  },
+  {
+    "id": 521,
+    "actor_id": 20,
+    "evidence_type": "wallet_reuse",
+    "description": "ApexPredator and DarkMatter share wallet address and show correlated behavioral patterns.",
+    "confidence": 0.59,
+    "source": "attribution_engine",
+    "evidence_hash": "bfcff6c778df11b21f9e91477e88bab737a4bef02c684e00381046e4b254bf6e"
+  }
+]

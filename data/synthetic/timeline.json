@@ -1,0 +1,1182 @@
+[
+  {
+    "actor_id": 1,
+    "event_type": "alias_created",
+    "title": "Alias 'shadow_x' created on DarkForum",
+    "event_date": "2025-02-27T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 1
+  },
+  {
+    "actor_id": 1,
+    "event_type": "alias_created",
+    "title": "Alias 'nightmarket' created on GhostBazaar",
+    "event_date": "2025-02-27T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 2
+  },
+  {
+    "actor_id": 1,
+    "event_type": "alias_created",
+    "title": "Alias 'zero_fox' created on CyberBoard",
+    "event_date": "2025-02-27T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 3
+  },
+  {
+    "actor_id": 1,
+    "event_type": "alias_created",
+    "title": "Alias 'phantom_buyer' created on DarkForum",
+    "event_date": "2025-02-27T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 4
+  },
+  {
+    "actor_id": 1,
+    "event_type": "alias_created",
+    "title": "Alias 'alpha_trader' created on GhostBazaar",
+    "event_date": "2025-02-27T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 5
+  },
+  {
+    "actor_id": 2,
+    "event_type": "alias_created",
+    "title": "Alias 'darkwolf' created on NexusExchange",
+    "event_date": "2025-05-21T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 12
+  },
+  {
+    "actor_id": 2,
+    "event_type": "alias_created",
+    "title": "Alias 'phantom_store' created on TorMarket",
+    "event_date": "2025-05-21T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 13
+  },
+  {
+    "actor_id": 2,
+    "event_type": "alias_created",
+    "title": "Alias 'phantom_buyer' created on GhostBazaar",
+    "event_date": "2025-05-21T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 14
+  },
+  {
+    "actor_id": 2,
+    "event_type": "alias_created",
+    "title": "Alias 'night_trader' created on DarkForum",
+    "event_date": "2025-05-21T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 15
+  },
+  {
+    "actor_id": 2,
+    "event_type": "alias_created",
+    "title": "Alias 'wolf_alpha' created on NexusExchange",
+    "event_date": "2025-05-21T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 16
+  },
+  {
+    "actor_id": 3,
+    "event_type": "alias_created",
+    "title": "Alias 'redcipher' created on DarkForum",
+    "event_date": "2025-04-25T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 24
+  },
+  {
+    "actor_id": 3,
+    "event_type": "alias_created",
+    "title": "Alias 'crimsonbyte_dev' created on NexusExchange",
+    "event_date": "2025-04-25T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 25
+  },
+  {
+    "actor_id": 3,
+    "event_type": "alias_created",
+    "title": "Alias 'cipher_master' created on DarkForum",
+    "event_date": "2025-04-25T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 26
+  },
+  {
+    "actor_id": 3,
+    "event_type": "alias_created",
+    "title": "Alias 'red_node' created on NexusExchange",
+    "event_date": "2025-04-25T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 27
+  },
+  {
+    "actor_id": 4,
+    "event_type": "alias_created",
+    "title": "Alias 'nightfox' created on ShadowMarket",
+    "event_date": "2025-02-22T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 36
+  },
+  {
+    "actor_id": 4,
+    "event_type": "alias_created",
+    "title": "Alias 'night_cipher' created on GhostBazaar",
+    "event_date": "2025-02-22T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 37
+  },
+  {
+    "actor_id": 4,
+    "event_type": "alias_created",
+    "title": "Alias 'fox_master' created on NexusExchange",
+    "event_date": "2025-02-22T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 38
+  },
+  {
+    "actor_id": 4,
+    "event_type": "alias_created",
+    "title": "Alias 'red_node_v2' created on ShadowMarket",
+    "event_date": "2025-02-22T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 39
+  },
+  {
+    "actor_id": 5,
+    "event_type": "alias_created",
+    "title": "Alias 'ghost_protocol' created on GhostBazaar",
+    "event_date": "2025-02-14T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 46
+  },
+  {
+    "actor_id": 5,
+    "event_type": "alias_created",
+    "title": "Alias 'phantom_data' created on DarkForum",
+    "event_date": "2025-02-14T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 47
+  },
+  {
+    "actor_id": 5,
+    "event_type": "alias_created",
+    "title": "Alias 'ghost_buyer' created on GhostBazaar",
+    "event_date": "2025-02-14T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 48
+  },
+  {
+    "actor_id": 5,
+    "event_type": "alias_created",
+    "title": "Alias 'data_phantom' created on DarkForum",
+    "event_date": "2025-02-14T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 49
+  },
+  {
+    "actor_id": 6,
+    "event_type": "alias_created",
+    "title": "Alias 'cyber_phantom' created on TorMarket",
+    "event_date": "2025-08-05T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 55
+  },
+  {
+    "actor_id": 6,
+    "event_type": "alias_created",
+    "title": "Alias 'phantom_net' created on NexusExchange",
+    "event_date": "2025-08-05T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 56
+  },
+  {
+    "actor_id": 6,
+    "event_type": "alias_created",
+    "title": "Alias 'cyber_ghost' created on ShadowMarket",
+    "event_date": "2025-08-05T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 57
+  },
+  {
+    "actor_id": 6,
+    "event_type": "alias_created",
+    "title": "Alias 'phantom_data_v2' created on DarkForum",
+    "event_date": "2025-08-05T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 58
+  },
+  {
+    "actor_id": 7,
+    "event_type": "alias_created",
+    "title": "Alias 'zer0day' created on NexusExchange",
+    "event_date": "2025-01-16T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 69
+  },
+  {
+    "actor_id": 7,
+    "event_type": "alias_created",
+    "title": "Alias 'zero_exploit' created on TorMarket",
+    "event_date": "2025-01-16T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 70
+  },
+  {
+    "actor_id": 7,
+    "event_type": "alias_created",
+    "title": "Alias 'day_zero' created on CyberBoard",
+    "event_date": "2025-01-16T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 71
+  },
+  {
+    "actor_id": 8,
+    "event_type": "alias_created",
+    "title": "Alias 'ironclad' created on ShadowMarket",
+    "event_date": "2025-04-22T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 83
+  },
+  {
+    "actor_id": 8,
+    "event_type": "alias_created",
+    "title": "Alias 'iron_gate' created on GhostBazaar",
+    "event_date": "2025-04-22T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 84
+  },
+  {
+    "actor_id": 8,
+    "event_type": "alias_created",
+    "title": "Alias 'clad_ops' created on CyberBoard",
+    "event_date": "2025-04-22T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 85
+  },
+  {
+    "actor_id": 9,
+    "event_type": "alias_created",
+    "title": "Alias 'black_mesa' created on ShadowMarket",
+    "event_date": "2025-09-16T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 94
+  },
+  {
+    "actor_id": 9,
+    "event_type": "alias_created",
+    "title": "Alias 'mesa_ops' created on CyberBoard",
+    "event_date": "2025-09-16T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 95
+  },
+  {
+    "actor_id": 9,
+    "event_type": "alias_created",
+    "title": "Alias 'black_ops' created on TorMarket",
+    "event_date": "2025-09-16T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 96
+  },
+  {
+    "actor_id": 10,
+    "event_type": "alias_created",
+    "title": "Alias 'crimson_byte' created on TorMarket",
+    "event_date": "2025-01-14T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 103
+  },
+  {
+    "actor_id": 10,
+    "event_type": "alias_created",
+    "title": "Alias 'crimson_ops' created on ShadowMarket",
+    "event_date": "2025-01-14T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 104
+  },
+  {
+    "actor_id": 10,
+    "event_type": "alias_created",
+    "title": "Alias 'byte_crimson' created on TorMarket",
+    "event_date": "2025-01-14T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 105
+  },
+  {
+    "actor_id": 11,
+    "event_type": "alias_created",
+    "title": "Alias 'venom_strike' created on GhostBazaar",
+    "event_date": "2025-04-12T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 113
+  },
+  {
+    "actor_id": 11,
+    "event_type": "alias_created",
+    "title": "Alias 'venom_ops' created on CyberBoard",
+    "event_date": "2025-04-12T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 114
+  },
+  {
+    "actor_id": 11,
+    "event_type": "alias_created",
+    "title": "Alias 'strike_venom' created on DarkForum",
+    "event_date": "2025-04-12T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 115
+  },
+  {
+    "actor_id": 12,
+    "event_type": "alias_created",
+    "title": "Alias 'silver_bullet' created on GhostBazaar",
+    "event_date": "2025-10-07T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 123
+  },
+  {
+    "actor_id": 12,
+    "event_type": "alias_created",
+    "title": "Alias 'silver_ops' created on CyberBoard",
+    "event_date": "2025-10-07T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 124
+  },
+  {
+    "actor_id": 12,
+    "event_type": "alias_created",
+    "title": "Alias 'bullet_silver' created on GhostBazaar",
+    "event_date": "2025-10-07T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 125
+  },
+  {
+    "actor_id": 13,
+    "event_type": "alias_created",
+    "title": "Alias 'carbon_fiber' created on NexusExchange",
+    "event_date": "2025-04-23T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 133
+  },
+  {
+    "actor_id": 13,
+    "event_type": "alias_created",
+    "title": "Alias 'carbon_ops' created on GhostBazaar",
+    "event_date": "2025-04-23T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 134
+  },
+  {
+    "actor_id": 14,
+    "event_type": "alias_created",
+    "title": "Alias 'titan_forge' created on DarkForum",
+    "event_date": "2025-05-23T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 144
+  },
+  {
+    "actor_id": 14,
+    "event_type": "alias_created",
+    "title": "Alias 'titan_ops' created on NexusExchange",
+    "event_date": "2025-05-23T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 145
+  },
+  {
+    "actor_id": 15,
+    "event_type": "alias_created",
+    "title": "Alias 'obsidian_edge' created on CyberBoard",
+    "event_date": "2025-03-23T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 156
+  },
+  {
+    "actor_id": 15,
+    "event_type": "alias_created",
+    "title": "Alias 'obsidian_ops' created on TorMarket",
+    "event_date": "2025-03-23T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 157
+  },
+  {
+    "actor_id": 16,
+    "event_type": "alias_created",
+    "title": "Alias 'nebula_core' created on CyberBoard",
+    "event_date": "2025-06-24T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 169
+  },
+  {
+    "actor_id": 16,
+    "event_type": "alias_created",
+    "title": "Alias 'nebula_ops' created on DarkForum",
+    "event_date": "2025-06-24T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 170
+  },
+  {
+    "actor_id": 17,
+    "event_type": "alias_created",
+    "title": "Alias 'quantum_leap' created on NexusExchange",
+    "event_date": "2025-03-21T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 178
+  },
+  {
+    "actor_id": 17,
+    "event_type": "alias_created",
+    "title": "Alias 'quantum_ops' created on ShadowMarket",
+    "event_date": "2025-03-21T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 179
+  },
+  {
+    "actor_id": 18,
+    "event_type": "alias_created",
+    "title": "Alias 'dragon_scale' created on GhostBazaar",
+    "event_date": "2025-06-22T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 189
+  },
+  {
+    "actor_id": 18,
+    "event_type": "alias_created",
+    "title": "Alias 'dragon_ops' created on TorMarket",
+    "event_date": "2025-06-22T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 190
+  },
+  {
+    "actor_id": 19,
+    "event_type": "alias_created",
+    "title": "Alias 'vortex_rider' created on NexusExchange",
+    "event_date": "2025-02-17T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 200
+  },
+  {
+    "actor_id": 19,
+    "event_type": "alias_created",
+    "title": "Alias 'vortex_ops' created on DarkForum",
+    "event_date": "2025-02-17T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 201
+  },
+  {
+    "actor_id": 20,
+    "event_type": "alias_created",
+    "title": "Alias 'apex_predator' created on GhostBazaar",
+    "event_date": "2025-02-19T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 210
+  },
+  {
+    "actor_id": 20,
+    "event_type": "alias_created",
+    "title": "Alias 'apex_ops' created on TorMarket",
+    "event_date": "2025-02-19T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 211
+  },
+  {
+    "actor_id": 21,
+    "event_type": "alias_created",
+    "title": "Alias 'nighthawk_ops' created on DarkForum",
+    "event_date": "2025-06-26T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 222
+  },
+  {
+    "actor_id": 21,
+    "event_type": "alias_created",
+    "title": "Alias 'hawk_ops' created on CyberBoard",
+    "event_date": "2025-06-26T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 223
+  },
+  {
+    "actor_id": 22,
+    "event_type": "alias_created",
+    "title": "Alias 'steel_serpent' created on GhostBazaar",
+    "event_date": "2025-05-16T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 230
+  },
+  {
+    "actor_id": 22,
+    "event_type": "alias_created",
+    "title": "Alias 'steel_ops' created on DarkForum",
+    "event_date": "2025-05-16T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 231
+  },
+  {
+    "actor_id": 23,
+    "event_type": "alias_created",
+    "title": "Alias 'chrome_viper' created on GhostBazaar",
+    "event_date": "2025-08-24T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 240
+  },
+  {
+    "actor_id": 23,
+    "event_type": "alias_created",
+    "title": "Alias 'chrome_ops' created on CyberBoard",
+    "event_date": "2025-08-24T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 241
+  },
+  {
+    "actor_id": 24,
+    "event_type": "alias_created",
+    "title": "Alias 'plasma_wave' created on ShadowMarket",
+    "event_date": "2025-03-05T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 252
+  },
+  {
+    "actor_id": 24,
+    "event_type": "alias_created",
+    "title": "Alias 'plasma_ops' created on DarkForum",
+    "event_date": "2025-03-05T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 253
+  },
+  {
+    "actor_id": 25,
+    "event_type": "alias_created",
+    "title": "Alias 'eclipse_run' created on CyberBoard",
+    "event_date": "2025-02-10T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 264
+  },
+  {
+    "actor_id": 25,
+    "event_type": "alias_created",
+    "title": "Alias 'eclipse_ops' created on ShadowMarket",
+    "event_date": "2025-02-10T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 265
+  },
+  {
+    "actor_id": 26,
+    "event_type": "alias_created",
+    "title": "Alias 'frost_bite' created on NexusExchange",
+    "event_date": "2025-05-31T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 277
+  },
+  {
+    "actor_id": 26,
+    "event_type": "alias_created",
+    "title": "Alias 'frost_ops' created on DarkForum",
+    "event_date": "2025-05-31T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 278
+  },
+  {
+    "actor_id": 27,
+    "event_type": "alias_created",
+    "title": "Alias 'nova_spark' created on GhostBazaar",
+    "event_date": "2025-07-05T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 287
+  },
+  {
+    "actor_id": 27,
+    "event_type": "alias_created",
+    "title": "Alias 'nova_ops' created on ShadowMarket",
+    "event_date": "2025-07-05T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 288
+  },
+  {
+    "actor_id": 28,
+    "event_type": "alias_created",
+    "title": "Alias 'rogue_agent' created on ShadowMarket",
+    "event_date": "2025-04-09T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 297
+  },
+  {
+    "actor_id": 28,
+    "event_type": "alias_created",
+    "title": "Alias 'rogue_ops' created on GhostBazaar",
+    "event_date": "2025-04-09T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 298
+  },
+  {
+    "actor_id": 29,
+    "event_type": "alias_created",
+    "title": "Alias 'phantom_byte' created on ShadowMarket",
+    "event_date": "2025-01-24T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 304
+  },
+  {
+    "actor_id": 29,
+    "event_type": "alias_created",
+    "title": "Alias 'phantom_ops' created on NexusExchange",
+    "event_date": "2025-01-24T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 305
+  },
+  {
+    "actor_id": 30,
+    "event_type": "alias_created",
+    "title": "Alias 'dark_matter' created on GhostBazaar",
+    "event_date": "2025-04-27T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 311
+  },
+  {
+    "actor_id": 30,
+    "event_type": "alias_created",
+    "title": "Alias 'dark_ops' created on TorMarket",
+    "event_date": "2025-04-27T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 312
+  },
+  {
+    "actor_id": 31,
+    "event_type": "alias_created",
+    "title": "Alias 'blaze_fury' created on DarkForum",
+    "event_date": "2025-02-10T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 321
+  },
+  {
+    "actor_id": 31,
+    "event_type": "alias_created",
+    "title": "Alias 'blaze_ops' created on NexusExchange",
+    "event_date": "2025-02-10T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 322
+  },
+  {
+    "actor_id": 32,
+    "event_type": "alias_created",
+    "title": "Alias 'silent_storm' created on TorMarket",
+    "event_date": "2025-02-21T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 329
+  },
+  {
+    "actor_id": 32,
+    "event_type": "alias_created",
+    "title": "Alias 'silent_ops' created on DarkForum",
+    "event_date": "2025-02-21T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 330
+  },
+  {
+    "actor_id": 33,
+    "event_type": "alias_created",
+    "title": "Alias 'turbo_hack' created on GhostBazaar",
+    "event_date": "2025-05-23T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 341
+  },
+  {
+    "actor_id": 33,
+    "event_type": "alias_created",
+    "title": "Alias 'turbo_ops' created on TorMarket",
+    "event_date": "2025-05-23T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 342
+  },
+  {
+    "actor_id": 34,
+    "event_type": "alias_created",
+    "title": "Alias 'cobra_strike' created on TorMarket",
+    "event_date": "2025-07-06T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 351
+  },
+  {
+    "actor_id": 34,
+    "event_type": "alias_created",
+    "title": "Alias 'cobra_ops' created on GhostBazaar",
+    "event_date": "2025-07-06T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 352
+  },
+  {
+    "actor_id": 35,
+    "event_type": "alias_created",
+    "title": "Alias 'mystic_code' created on ShadowMarket",
+    "event_date": "2025-07-09T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 364
+  },
+  {
+    "actor_id": 35,
+    "event_type": "alias_created",
+    "title": "Alias 'mystic_ops' created on GhostBazaar",
+    "event_date": "2025-07-09T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 365
+  },
+  {
+    "actor_id": 36,
+    "event_type": "alias_created",
+    "title": "Alias 'spartan_ops' created on CyberBoard",
+    "event_date": "2025-04-18T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 374
+  },
+  {
+    "actor_id": 36,
+    "event_type": "alias_created",
+    "title": "Alias 'spartan_net' created on ShadowMarket",
+    "event_date": "2025-04-18T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 375
+  },
+  {
+    "actor_id": 37,
+    "event_type": "alias_created",
+    "title": "Alias 'viking_shield' created on NexusExchange",
+    "event_date": "2025-02-06T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 384
+  },
+  {
+    "actor_id": 37,
+    "event_type": "alias_created",
+    "title": "Alias 'viking_ops' created on TorMarket",
+    "event_date": "2025-02-06T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 385
+  },
+  {
+    "actor_id": 38,
+    "event_type": "alias_created",
+    "title": "Alias 'zeus_bolt' created on TorMarket",
+    "event_date": "2025-03-29T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 395
+  },
+  {
+    "actor_id": 38,
+    "event_type": "alias_created",
+    "title": "Alias 'zeus_ops' created on DarkForum",
+    "event_date": "2025-03-29T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 396
+  },
+  {
+    "actor_id": 39,
+    "event_type": "alias_created",
+    "title": "Alias 'mars_rover' created on TorMarket",
+    "event_date": "2025-05-06T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 402
+  },
+  {
+    "actor_id": 39,
+    "event_type": "alias_created",
+    "title": "Alias 'mars_ops' created on DarkForum",
+    "event_date": "2025-05-06T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 403
+  },
+  {
+    "actor_id": 40,
+    "event_type": "alias_created",
+    "title": "Alias 'atlas_node' created on NexusExchange",
+    "event_date": "2025-08-25T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 411
+  },
+  {
+    "actor_id": 40,
+    "event_type": "alias_created",
+    "title": "Alias 'atlas_ops' created on ShadowMarket",
+    "event_date": "2025-08-25T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 412
+  },
+  {
+    "actor_id": 41,
+    "event_type": "alias_created",
+    "title": "Alias 'orion_key' created on NexusExchange",
+    "event_date": "2025-05-19T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 419
+  },
+  {
+    "actor_id": 41,
+    "event_type": "alias_created",
+    "title": "Alias 'orion_ops' created on ShadowMarket",
+    "event_date": "2025-05-19T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 420
+  },
+  {
+    "actor_id": 42,
+    "event_type": "alias_created",
+    "title": "Alias 'nexus_core' created on TorMarket",
+    "event_date": "2025-10-13T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 426
+  },
+  {
+    "actor_id": 42,
+    "event_type": "alias_created",
+    "title": "Alias 'nexus_ops' created on GhostBazaar",
+    "event_date": "2025-10-13T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 427
+  },
+  {
+    "actor_id": 43,
+    "event_type": "alias_created",
+    "title": "Alias 'cipher_wolf' created on DarkForum",
+    "event_date": "2025-06-16T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 436
+  },
+  {
+    "actor_id": 43,
+    "event_type": "alias_created",
+    "title": "Alias 'cipher_ops' created on TorMarket",
+    "event_date": "2025-06-16T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 437
+  },
+  {
+    "actor_id": 44,
+    "event_type": "alias_created",
+    "title": "Alias 'shadow_net' created on TorMarket",
+    "event_date": "2025-04-28T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 446
+  },
+  {
+    "actor_id": 44,
+    "event_type": "alias_created",
+    "title": "Alias 'shadow_ops' created on ShadowMarket",
+    "event_date": "2025-04-28T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 447
+  },
+  {
+    "actor_id": 45,
+    "event_type": "alias_created",
+    "title": "Alias 'ghost_link' created on CyberBoard",
+    "event_date": "2025-06-11T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 455
+  },
+  {
+    "actor_id": 45,
+    "event_type": "alias_created",
+    "title": "Alias 'ghost_ops' created on TorMarket",
+    "event_date": "2025-06-11T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 456
+  },
+  {
+    "actor_id": 46,
+    "event_type": "alias_created",
+    "title": "Alias 'phantom_rust' created on GhostBazaar",
+    "event_date": "2025-05-18T00:00:00",
+    "confidence": 0.9,
+    "source": "GhostBazaar",
+    "evidence_id": 465
+  },
+  {
+    "actor_id": 46,
+    "event_type": "alias_created",
+    "title": "Alias 'rust_ops' created on NexusExchange",
+    "event_date": "2025-05-18T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 466
+  },
+  {
+    "actor_id": 47,
+    "event_type": "alias_created",
+    "title": "Alias 'dark_horizon' created on DarkForum",
+    "event_date": "2025-04-19T00:00:00",
+    "confidence": 0.9,
+    "source": "DarkForum",
+    "evidence_id": 476
+  },
+  {
+    "actor_id": 47,
+    "event_type": "alias_created",
+    "title": "Alias 'horizon_ops' created on CyberBoard",
+    "event_date": "2025-04-19T00:00:00",
+    "confidence": 0.9,
+    "source": "CyberBoard",
+    "evidence_id": 477
+  },
+  {
+    "actor_id": 48,
+    "event_type": "alias_created",
+    "title": "Alias 'night_shade' created on ShadowMarket",
+    "event_date": "2025-06-11T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 483
+  },
+  {
+    "actor_id": 48,
+    "event_type": "alias_created",
+    "title": "Alias 'shade_ops' created on NexusExchange",
+    "event_date": "2025-06-11T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 484
+  },
+  {
+    "actor_id": 49,
+    "event_type": "alias_created",
+    "title": "Alias 'red_phoenix' created on NexusExchange",
+    "event_date": "2025-09-13T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 493
+  },
+  {
+    "actor_id": 49,
+    "event_type": "alias_created",
+    "title": "Alias 'phoenix_ops' created on ShadowMarket",
+    "event_date": "2025-09-13T00:00:00",
+    "confidence": 0.9,
+    "source": "ShadowMarket",
+    "evidence_id": 494
+  },
+  {
+    "actor_id": 50,
+    "event_type": "alias_created",
+    "title": "Alias 'blue_orion' created on NexusExchange",
+    "event_date": "2025-08-23T00:00:00",
+    "confidence": 0.9,
+    "source": "NexusExchange",
+    "evidence_id": 504
+  },
+  {
+    "actor_id": 50,
+    "event_type": "alias_created",
+    "title": "Alias 'blue_ops' created on TorMarket",
+    "event_date": "2025-08-23T00:00:00",
+    "confidence": 0.9,
+    "source": "TorMarket",
+    "evidence_id": 505
+  },
+  {
+    "actor_id": 1,
+    "event_type": "correlation_detected",
+    "title": "Cross-actor correlation detected: VERY_HIGH confidence (90%)",
+    "description": "ShadowAlpha and DarkWolf share PGP fingerprint, wallet address, and alias 'phantom_buyer'. Writing style and behavioral patterns highly correlated.",
+    "event_date": "2025-10-09T00:00:00",
+    "confidence": 0.905,
+    "source": "attribution_engine",
+    "evidence_id": 512
+  },
+  {
+    "actor_id": 3,
+    "event_type": "correlation_detected",
+    "title": "Cross-actor correlation detected: HIGH confidence (71%)",
+    "description": "RedCipher and NightFox share PGP key and domain infrastructure. Both use technical writing style with very similar vocabulary and sentence structure.",
+    "event_date": "2025-03-20T00:00:00",
+    "confidence": 0.711,
+    "source": "attribution_engine",
+    "evidence_id": 513
+  },
+  {
+    "actor_id": 5,
+    "event_type": "correlation_detected",
+    "title": "Cross-actor correlation detected: MEDIUM confidence (58%)",
+    "description": "GhostProtocol and CyberPhantom share cryptocurrency wallet and IP address. Similar alias naming patterns observed.",
+    "event_date": "2025-11-14T00:00:00",
+    "confidence": 0.5835,
+    "source": "attribution_engine",
+    "evidence_id": 514
+  },
+  {
+    "actor_id": 7,
+    "event_type": "correlation_detected",
+    "title": "Cross-actor correlation detected: LOW confidence (21%)",
+    "description": "Weak correlation between ZeroDay and IronClad. Only temporal posting patterns show minor overlap. Insufficient evidence for strong attribution.",
+    "event_date": "2025-09-17T00:00:00",
+    "confidence": 0.2105,
+    "source": "attribution_engine",
+    "evidence_id": 515
+  },
+  {
+    "actor_id": 9,
+    "event_type": "correlation_detected",
+    "title": "Cross-actor correlation detected: LOW confidence (19%)",
+    "description": "Minimal correlation. Behavioral patterns show some overlap but stylistic and infrastructure signals are divergent.",
+    "event_date": "2025-03-15T00:00:00",
+    "confidence": 0.1905,
+    "source": "attribution_engine",
+    "evidence_id": 516
+  },
+  {
+    "actor_id": 11,
+    "event_type": "correlation_detected",
+    "title": "Cross-actor correlation detected: LOW confidence (38%)",
+    "description": "Moderate correlation. Stylometric analysis reveals similar vocabulary patterns. Behavioral profiles partially overlap.",
+    "event_date": "2025-12-25T00:00:00",
+    "confidence": 0.384,
+    "source": "attribution_engine",
+    "evidence_id": 517
+  },
+  {
+    "actor_id": 13,
+    "event_type": "correlation_detected",
+    "title": "Cross-actor correlation detected: LOW confidence (39%)",
+    "description": "Strong stylometric correlation between CarbonFiber and TitanForge despite different thematic focus areas.",
+    "event_date": "2025-07-19T00:00:00",
+    "confidence": 0.3875,
+    "source": "attribution_engine",
+    "evidence_id": 518
+  },
+  {
+    "actor_id": 16,
+    "event_type": "correlation_detected",
+    "title": "Cross-actor correlation detected: LOW confidence (30%)",
+    "description": "Moderate correlation based on behavioral and stylometric signals. No cryptographic or infrastructure overlap detected.",
+    "event_date": "2025-11-28T00:00:00",
+    "confidence": 0.3025,
+    "source": "attribution_engine",
+    "evidence_id": 519
+  },
+  {
+    "actor_id": 38,
+    "event_type": "correlation_detected",
+    "title": "Cross-actor correlation detected: VERY_HIGH confidence (88%)",
+    "description": "ZeusBolt and DarkHorizon show very strong correlation across multiple independent signals: shared PGP, shared wallet, matching infrastructure, and highly similar behavioral/stylometric profiles.",
+    "event_date": "2025-08-22T00:00:00",
+    "confidence": 0.8785,
+    "source": "attribution_engine",
+    "evidence_id": 520
+  },
+  {
+    "actor_id": 20,
+    "event_type": "correlation_detected",
+    "title": "Cross-actor correlation detected: MEDIUM confidence (59%)",
+    "description": "ApexPredator and DarkMatter share wallet address and show correlated behavioral patterns.",
+    "event_date": "2025-11-02T00:00:00",
+    "confidence": 0.59,
+    "source": "attribution_engine",
+    "evidence_id": 521
+  }
+]

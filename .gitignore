@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+.next/
+dist/
+build/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker/data/
+
+# Secrets
+*.pem
+*.key
+secrets/
+
+# Database
+*.db
+*.sqlite3
+
+# Python
+*.egg-info/
+.pytest_cache/
+
+# ML models (large files)
+ml/models/*.bin
+ml/models/*.pt
+ml/models/*.onnx

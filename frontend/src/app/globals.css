@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 230 25% 5%;
+    --foreground: 210 40% 96%;
+  }
+
+  body {
+    @apply bg-dark-950 text-gray-100 antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-dark-800/60 backdrop-blur-xl border border-dark-600/50 rounded-xl;
+  }
+
+  .glass-card {
+    @apply bg-dark-800/40 backdrop-blur-lg border border-dark-600/30 rounded-lg p-4;
+  }
+
+  .cyber-glow {
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.1), 0 0 40px rgba(0, 212, 255, 0.05);
+  }
+
+  .cyber-glow-green {
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.1), 0 0 40px rgba(0, 255, 136, 0.05);
+  }
+
+  .cyber-glow-red {
+    box-shadow: 0 0 20px rgba(255, 51, 102, 0.1), 0 0 40px rgba(255, 51, 102, 0.05);
+  }
+
+  .cyber-border {
+    @apply border border-dark-600/50;
+  }
+
+  .stat-card {
+    @apply glass-card flex flex-col gap-1;
+  }
+
+  .stat-value {
+    @apply text-2xl font-bold font-mono;
+  }
+
+  .stat-label {
+    @apply text-xs text-gray-400 uppercase tracking-wider;
+  }
+
+  .badge-critical {
+    @apply px-2 py-0.5 rounded-full text-xs font-medium bg-cyber-red/20 text-cyber-red border border-cyber-red/30;
+  }
+
+  .badge-high {
+    @apply px-2 py-0.5 rounded-full text-xs font-medium bg-cyber-orange/20 text-cyber-orange border border-cyber-orange/30;
+  }
+
+  .badge-medium {
+    @apply px-2 py-0.5 rounded-full text-xs font-medium bg-cyber-yellow/20 text-cyber-yellow border border-cyber-yellow/30;
+  }
+
+  .badge-low {
+    @apply px-2 py-0.5 rounded-full text-xs font-medium bg-cyber-green/20 text-cyber-green border border-cyber-green/30;
+  }
+
+  .badge-info {
+    @apply px-2 py-0.5 rounded-full text-xs font-medium bg-cyber-blue/20 text-cyber-blue border border-cyber-blue/30;
+  }
+
+  .nav-link {
+    @apply flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-gray-400 hover:text-gray-100 hover:bg-dark-700/50 transition-all;
+  }
+
+  .nav-link.active {
+    @apply text-cyber-blue bg-dark-700/50 border-l-2 border-cyber-blue;
+  }
+
+  .input-field {
+    @apply w-full px-3 py-2 bg-dark-800 border border-dark-600 rounded-lg text-sm text-gray-100 placeholder-gray-500 focus:outline-none focus:border-cyber-blue/50 focus:ring-1 focus:ring-cyber-blue/20;
+  }
+
+  .btn-primary {
+    @apply px-4 py-2 bg-cyber-blue/20 text-cyber-blue border border-cyber-blue/30 rounded-lg text-sm font-medium hover:bg-cyber-blue/30 transition-all;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 bg-dark-700 text-gray-300 border border-dark-600 rounded-lg text-sm font-medium hover:bg-dark-600 transition-all;
+  }
+
+  .confidence-bar {
+    @apply h-2 rounded-full overflow-hidden bg-dark-700;
+  }
+
+  .confidence-fill {
+    @apply h-full rounded-full transition-all duration-500;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e3352;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3d4266;
+}
+
+/* React Flow overrides */
+.react-flow__node {
+  font-size: 12px !important;
+}
+.react-flow__edge-path {
+  stroke: #3d4266 !important;
+}
+
+/* Pulse animation for live indicators */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.animate-pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #00d4ff, #00ff88);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Timeline connector */
+.timeline-connector {
+  position: relative;
+}
+.timeline-connector::before {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 40px;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #2e3352, transparent);
+}
+
+/* Print styles for reports */
+@media print {
+  .no-print { display: none !important; }
+  body { background: white !important; color: black !important; }
+  .glass-card { background: white !important; border: 1px solid #e5e7eb !important; }
+}
