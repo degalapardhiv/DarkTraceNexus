@@ -1,0 +1,42 @@
+services:
+  - type: web
+    name: darktrace-nexus-api
+    runtime: docker
+    dockerfilePath: backend/Dockerfile
+    dockerContext: .
+    rootDir: backend
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: darktrace-nexus-db
+          property: connectionString
+      - key: JWT_SECRET_KEY
+        generateValue: false
+      - key: JWT_ALGORITHM
+        value: HS256
+      - key: JWT_ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "60"
+      - key: CORS_ORIGINS
+        value: '["https://darktrace-nexus.vercel.app"]'
+      - key: ENABLE_DOCS
+        value: "false"
+      - key: ENABLE_DEMO_AUTH
+        value: "false"
+      - key: ENVIRONMENT
+        value: production
+      - key: API_HOST
+        value: "0.0.0.0"
+      - key: API_PORT
+        value: "8000"
+      - key: DB_POOL_SIZE
+        value: "20"
+      - key: DB_MAX_OVERFLOW
+        value: "10"
+
+databases:
+  - name: darktrace-nexus-db
+    plan: free
+    databaseName: darktrace_nexus
+    user: darktrace
