@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, useCallback, useRef } from 'react';
 import { apiFetch, ensureAuth } from '@/lib/api';
 import {
   Clock, User, Eye, Key, Wallet, Globe, Link2, Shield,
@@ -39,26 +39,33 @@ export default function TimelinePage() {
   const [filterDateTo, setFilterDateTo] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
   const [showFilters, setShowFilters] = useState(false);
+  const pollTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const fetchTimeline = useCallback(async () => {
+    try {
+      const [ev, ac] = await Promise.all([
+        apiFetch<TimelineEvent[]>('/api/v1/intelligence/timeline?limit=200'),
+        apiFetch<Actor[]>('/api/v1/actors/?limit=100'),
+      ]);
+      setEvents(ev);
+      setActors(ac);
+    } catch { /* ignore */ }
+  }, []);
 
   useEffect(() => {
     const load = async () => {
       await ensureAuth();
-      try {
-        const [ev, ac] = await Promise.all([
-          apiFetch<TimelineEvent[]>('/api/v1/intelligence/timeline?limit=200'),
-          apiFetch<Actor[]>('/api/v1/actors/?limit=100'),
-        ]);
-        setEvents(ev);
-        setActors(ac);
-      } catch (e) {
-        console.error(e);
-      } finally {
-        setLoading(false);
-        setTimeout(() => setFadeIn(true), 50);
-      }
+      await fetchTimeline();
+      setLoading(false);
+      setTimeout(() => setFadeIn(true), 50);
     };
     load();
-  }, []);
+  }, [fetchTimeline]);
+
+  useEffect(() => {
+    pollTimerRef.current = setInterval(fetchTimeline, 30000);
+    return () => { if (pollTimerRef.current) clearInterval(pollTimerRef.current); };
+  }, [fetchTimeline]);
 
   const actorMap = useMemo(() => {
     const m = new Map<number, Actor>();

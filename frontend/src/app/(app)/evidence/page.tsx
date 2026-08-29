@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, useCallback, useRef } from 'react';
 import Link from 'next/link';
 import { apiFetch, ensureAuth } from '@/lib/api';
 import {
@@ -55,23 +55,29 @@ export default function EvidencePage() {
   const [sortBy, setSortBy] = useState<SortKey>('date');
   const [showFilters, setShowFilters] = useState(false);
   const [copiedHash, setCopiedHash] = useState<number | null>(null);
+  const pollTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const fetchEvidence = useCallback(async () => {
+    try {
+      const [evData, actorData] = await Promise.all([
+        apiFetch<Evidence[]>('/api/v1/intelligence/evidence?limit=200'),
+        apiFetch<Actor[]>('/api/v1/actors/?limit=100'),
+      ]);
+      setEvidence(evData);
+      setActors(actorData);
+    } catch { /* ignore */ }
+  }, []);
 
   useEffect(() => {
     ensureAuth().then(() => {
-      Promise.all([
-        apiFetch<Evidence[]>('/api/v1/intelligence/evidence?limit=200'),
-        apiFetch<Actor[]>('/api/v1/actors/?limit=100'),
-      ])
-        .then(([evData, actorData]) => {
-          setEvidence(evData);
-          setActors(actorData);
-        })
-        .catch((err) => {
-          setError(err.message || 'Failed to load evidence');
-        })
-        .finally(() => setLoading(false));
+      fetchEvidence().finally(() => setLoading(false));
     });
-  }, []);
+  }, [fetchEvidence]);
+
+  useEffect(() => {
+    pollTimerRef.current = setInterval(fetchEvidence, 30000);
+    return () => { if (pollTimerRef.current) clearInterval(pollTimerRef.current); };
+  }, [fetchEvidence]);
 
   const actorMap = useMemo(() => {
     const map: Record<number, string> = {};

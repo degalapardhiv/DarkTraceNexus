@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, useCallback, useRef } from 'react';
 import Link from 'next/link';
 import { apiFetch, ensureAuth } from '@/lib/api';
 import {
@@ -102,20 +102,30 @@ export default function InvestigationPage() {
   const [loadingActors, setLoadingActors] = useState(true);
   const [loadingDetail, setLoadingDetail] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const pollTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const fetchActors = useCallback(async () => {
+    try {
+      const data = await apiFetch<Actor[]>('/api/v1/actors/?limit=100');
+      setActors(data);
+      return data;
+    } catch { return []; }
+  }, []);
 
   useEffect(() => {
     ensureAuth().then(() => {
-      apiFetch<Actor[]>('/api/v1/actors/?limit=100')
-        .then((data) => {
-          setActors(data);
-          if (data.length > 0) {
-            setSelectedActorId(data[0].id);
-          }
-        })
-        .catch(console.error)
-        .finally(() => setLoadingActors(false));
+      fetchActors().then((data) => {
+        if (data.length > 0 && !selectedActorId) {
+          setSelectedActorId(data[0].id);
+        }
+      }).finally(() => setLoadingActors(false));
     });
-  }, []);
+  }, [fetchActors]);
+
+  useEffect(() => {
+    pollTimerRef.current = setInterval(fetchActors, 30000);
+    return () => { if (pollTimerRef.current) clearInterval(pollTimerRef.current); };
+  }, [fetchActors]);
 
   useEffect(() => {
     if (!selectedActorId) return;

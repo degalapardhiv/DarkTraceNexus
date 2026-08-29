@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useCallback, useMemo } from 'react';
+import { useEffect, useState, useCallback, useMemo, useRef } from 'react';
 import ReactFlow, {
   Node,
   Edge,
@@ -70,7 +70,7 @@ interface PanelNode { id: string; label: string; type: string; properties?: Reco
 interface PanelEdge { id: string; source: string; target: string; label: string; properties?: Record<string, unknown> }
 
 export default function GraphPage() {
-  const [selectedActor, setSelectedActor] = useState('1');
+  const [selectedActor, setSelectedActor] = useState('');
   const [actorList, setActorList] = useState<Array<{ id: number; name: string }>>([]);
   const [graphData, setGraphData] = useState<GraphData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -79,6 +79,8 @@ export default function GraphPage() {
   const [confThreshold, setConfThreshold] = useState(0);
   const [selectedNode, setSelectedNode] = useState<PanelNode | null>(null);
   const [selectedEdge, setSelectedEdge] = useState<PanelEdge | null>(null);
+  const [actorsLoaded, setActorsLoaded] = useState(false);
+  const pollTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -91,7 +93,13 @@ export default function GraphPage() {
   useEffect(() => {
     ensureAuth().then(() =>
       apiFetch<Array<{ id: number; name: string }>>('/api/v1/actors/?limit=50')
-        .then(setActorList)
+        .then((list) => {
+          setActorList(list);
+          setActorsLoaded(true);
+          if (!selectedActor && list.length > 0) {
+            setSelectedActor(String(list[0].id));
+          }
+        })
         .catch(console.error)
     );
   }, []);
@@ -112,6 +120,20 @@ export default function GraphPage() {
 
   useEffect(() => {
     if (selectedActor) fetchGraph(selectedActor);
+  }, [selectedActor, fetchGraph]);
+
+  useEffect(() => {
+    if (selectedActor) {
+      pollTimerRef.current = setInterval(() => {
+        fetchGraph(selectedActor);
+      }, 30000);
+    }
+    return () => {
+      if (pollTimerRef.current) {
+        clearInterval(pollTimerRef.current);
+        pollTimerRef.current = null;
+      }
+    };
   }, [selectedActor, fetchGraph]);
 
   const stats = useMemo(() => {
@@ -251,13 +273,21 @@ export default function GraphPage() {
       </div>
 
       <div className="flex-1 glass-card relative overflow-hidden" style={{ minHeight: 0 }}>
-        {loading ? (
+        {loading && actorsLoaded ? (
           <div className="flex items-center justify-center h-full">
             <div className="flex flex-col items-center gap-3">
               <div className="w-10 h-10 border-2 border-cyber-blue/20 border-t-cyber-blue rounded-full animate-spin" />
               <p className="text-sm text-gray-400">Loading graph...</p>
             </div>
           </div>
+        ) : !actorsLoaded ? (
+          <div className="flex items-center justify-center h-full">
+            <div className="flex flex-col items-center gap-3">
+              <div className="w-10 h-10 border-2 border-cyber-blue/20 border-t-cyber-blue rounded-full animate-spin" />
+              <p className="text-sm text-gray-400">Connecting to backend...</p>
+            </div>
+          </div>
+        )
         ) : error ? (
           <div className="flex items-center justify-center h-full">
             <div className="text-center">

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback, useRef } from 'react';
 import Link from 'next/link';
 import { apiFetch, ensureAuth } from '@/lib/api';
 import { Search, Users, ArrowUpDown } from 'lucide-react';
@@ -12,18 +12,28 @@ export default function ActorsPage() {
   const [search, setSearch] = useState('');
   const [riskFilter, setRiskFilter] = useState('');
   const [sortBy, setSortBy] = useState<'confidence' | 'name' | 'risk'>('confidence');
+  const pollTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const fetchActors = useCallback(async () => {
+    const params = new URLSearchParams({ limit: '100' });
+    if (search) params.set('search', search);
+    if (riskFilter) params.set('risk_level', riskFilter);
+    try {
+      const data = await apiFetch<Actor[]>(`/api/v1/actors/?${params}`);
+      setActors(data);
+    } catch (e) { /* ignore */ }
+  }, [search, riskFilter]);
 
   useEffect(() => {
     ensureAuth().then(() => {
-      const params = new URLSearchParams({ limit: '100' });
-      if (search) params.set('search', search);
-      if (riskFilter) params.set('risk_level', riskFilter);
-      apiFetch<Actor[]>(`/api/v1/actors/?${params}`)
-        .then(setActors)
-        .catch(console.error)
-        .finally(() => setLoading(false));
+      fetchActors().finally(() => setLoading(false));
     });
-  }, [search, riskFilter]);
+  }, [fetchActors]);
+
+  useEffect(() => {
+    pollTimerRef.current = setInterval(fetchActors, 30000);
+    return () => { if (pollTimerRef.current) clearInterval(pollTimerRef.current); };
+  }, [fetchActors]);
 
   const sorted = [...actors].sort((a, b) => {
     if (sortBy === 'confidence') return b.confidence_score - a.confidence_score;

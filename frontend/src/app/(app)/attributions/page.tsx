@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback, useRef } from 'react';
 import { apiFetch, ensureAuth } from '@/lib/api';
 import Link from 'next/link';
 import {
@@ -230,10 +230,16 @@ export default function AttributionsPage() {
   const [filterLevel, setFilterLevel] = useState<string>('ALL');
   const [expandedIds, setExpandedIds] = useState<Set<number>>(new Set());
   const [searchQuery, setSearchQuery] = useState('');
+  const pollTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     ensureAuth();
     fetchData();
+  }, []);
+
+  useEffect(() => {
+    pollTimerRef.current = setInterval(fetchData, 30000);
+    return () => { if (pollTimerRef.current) clearInterval(pollTimerRef.current); };
   }, []);
 
   async function fetchData() {
