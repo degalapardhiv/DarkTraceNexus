@@ -142,6 +142,7 @@ async def list_sources(db: AsyncSession = Depends(get_db),
                        current_user: User = Depends(get_current_user)):
     result = await db.execute(select(Source).order_by(Source.created_at.desc()))
     sources = result.scalars().all()
-    return [{"id": s.id, "name": s.name, "type": s.source_type,
+    return [{"id": s.id, "name": s.name, "source_type": s.source_type,
              "reliability": s.reliability, "record_count": s.record_count,
+             "last_ingested_at": s.last_fetched.isoformat() if s.last_fetched else None,
              "is_active": s.is_active} for s in sources]

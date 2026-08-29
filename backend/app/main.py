@@ -53,6 +53,7 @@ app.include_router(api_router)
 
 
 @app.get("/health")
+@app.get("/api/v1/health")
 async def health_check():
     return {"status": "healthy", "service": "DarkTrace Nexus API", "version": "1.0.0"}
 
