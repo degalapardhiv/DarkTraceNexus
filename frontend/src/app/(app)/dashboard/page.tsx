@@ -81,7 +81,7 @@ export default function DashboardPage() {
     const init = async () => {
       await ensureAuth();
       const result = await fetchData();
-      if (result) setLoading(false);
+      setLoading(false);
 
       sseDestroy = createSSEConnection('/api/v1/events', {
         onOpen: () => setSseStatus('connected'),

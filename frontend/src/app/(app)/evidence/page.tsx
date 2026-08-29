@@ -73,6 +73,8 @@ export default function EvidencePage() {
   useEffect(() => {
     ensureAuth().then(() => {
       fetchEvidence().finally(() => setLoading(false));
+    }).catch(() => {
+      fetchEvidence().finally(() => setLoading(false));
     });
   }, [fetchEvidence]);
 

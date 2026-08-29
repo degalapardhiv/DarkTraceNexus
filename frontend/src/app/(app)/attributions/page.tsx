@@ -233,7 +233,7 @@ export default function AttributionsPage() {
   const pollTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
-    ensureAuth().then(() => fetchData());
+    ensureAuth().then(() => fetchData()).catch(() => fetchData());
   }, []);
 
   useEffect(() => {

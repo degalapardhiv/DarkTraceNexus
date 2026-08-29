@@ -14,7 +14,7 @@ export async function apiFetch<T>(
   path: string,
   options: RequestInit = {}
 ): Promise<T> {
-  const token = getToken();
+  let token = getToken();
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
     ...(options.headers as Record<string, string>),
@@ -24,10 +24,19 @@ export async function apiFetch<T>(
   }
 
   const url = `${API_BASE}${path}`;
-  const res = await fetch(url, {
-    ...options,
-    headers,
-  });
+  let res = await fetch(url, { ...options, headers });
+
+  if (res.status === 401) {
+    try {
+      const authRes = await fetch(`${API_BASE}/api/v1/auth/demo-token`, { method: 'POST' });
+      if (authRes.ok) {
+        const authData = await authRes.json();
+        localStorage.setItem('darktrace_token', authData.access_token);
+        headers['Authorization'] = `Bearer ${authData.access_token}`;
+        res = await fetch(url, { ...options, headers });
+      }
+    } catch { /* ignore */ }
+  }
 
   if (!res.ok) {
     const err = await res.json().catch(() => ({ detail: 'Request failed' }));
@@ -62,7 +71,9 @@ export async function apiUpload(path: string, file: File): Promise<any> {
 }
 
 export async function ensureAuth(): Promise<void> {
-  if (getToken()) return;
+  try {
+    if (getToken()) return;
+  } catch { /* ignore */ }
   try {
     const res = await fetch(`${API_BASE}/api/v1/auth/demo-token`, { method: 'POST' });
     if (res.ok) {
