@@ -287,7 +287,6 @@ export default function GraphPage() {
               <p className="text-sm text-gray-400">Connecting to backend...</p>
             </div>
           </div>
-        )
         ) : error ? (
           <div className="flex items-center justify-center h-full">
             <div className="text-center">

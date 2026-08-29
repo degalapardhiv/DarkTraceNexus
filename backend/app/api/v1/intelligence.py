@@ -301,22 +301,30 @@ async def search_entities(
 
     actors = (await db.execute(select(Actor).where(Actor.name.ilike(f"%{q}%")))).scalars().all()
     for a in actors:
-        results.append({"type": "Actor", "id": a.id, "name": a.name, "confidence": a.confidence_score, "risk_level": a.risk_level})
+        results.append({"type": "Actor", "id": a.id, "name": a.name, "confidence": a.confidence_score, "risk_level": a.risk_level, "actor_id": a.id})
 
     aliases = (await db.execute(select(Alias).where(Alias.handle.ilike(f"%{q}%")))).scalars().all()
     for a in aliases:
-        results.append({"type": "Alias", "id": a.id, "name": a.handle, "actor_id": a.actor_id, "platform": a.platform})
+        actor = await db.get(Actor, a.actor_id)
+        results.append({"type": "Alias", "id": a.id, "name": a.handle, "actor_id": a.actor_id, "platform": a.platform,
+                        "confidence": actor.confidence_score if actor else 0, "risk_level": actor.risk_level if actor else "UNKNOWN"})
 
     pgps = (await db.execute(select(PGPKey).where(PGPKey.fingerprint.ilike(f"%{q}%")))).scalars().all()
     for p in pgps:
-        results.append({"type": "PGP", "id": p.id, "name": p.fingerprint[:20], "actor_id": p.actor_id})
+        actor = await db.get(Actor, p.actor_id)
+        results.append({"type": "PGP", "id": p.id, "name": p.fingerprint[:20], "actor_id": p.actor_id,
+                        "confidence": actor.confidence_score if actor else 0, "risk_level": actor.risk_level if actor else "UNKNOWN"})
 
     wallets = (await db.execute(select(Wallet).where(Wallet.address.ilike(f"%{q}%")))).scalars().all()
     for w in wallets:
-        results.append({"type": "Wallet", "id": w.id, "name": w.address[:20], "actor_id": w.actor_id})
+        actor = await db.get(Actor, w.actor_id)
+        results.append({"type": "Wallet", "id": w.id, "name": w.address[:20], "actor_id": w.actor_id,
+                        "confidence": actor.confidence_score if actor else 0, "risk_level": actor.risk_level if actor else "UNKNOWN"})
 
     domains = (await db.execute(select(Domain).where(Domain.domain.ilike(f"%{q}%")))).scalars().all()
     for d in domains:
-        results.append({"type": "Domain", "id": d.id, "name": d.domain, "actor_id": d.actor_id})
+        actor = await db.get(Actor, d.actor_id)
+        results.append({"type": "Domain", "id": d.id, "name": d.domain, "actor_id": d.actor_id,
+                        "confidence": actor.confidence_score if actor else 0, "risk_level": actor.risk_level if actor else "UNKNOWN"})
 
     return results

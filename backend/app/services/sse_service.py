@@ -22,6 +22,7 @@ class SSEBroadcaster:
         async with self._lock:
             self._clients.append(queue)
         try:
+            yield {"event": "heartbeat", "data": json.dumps({"ts": time.time(), "connected": True})}
             while True:
                 try:
                     event = await asyncio.wait_for(queue.get(), timeout=30.0)

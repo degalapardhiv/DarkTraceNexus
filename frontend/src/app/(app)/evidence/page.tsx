@@ -65,7 +65,9 @@ export default function EvidencePage() {
       ]);
       setEvidence(evData);
       setActors(actorData);
-    } catch { /* ignore */ }
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Failed to load evidence');
+    }
   }, []);
 
   useEffect(() => {

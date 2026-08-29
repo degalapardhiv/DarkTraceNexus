@@ -522,7 +522,7 @@ export default function DashboardPage() {
           </div>
           <div className="space-y-3">
             {recentIntel.map(actor => {
-              const riskColor = actor.risk_level === 'critical' ? 'text-cyber-red' : actor.risk_level === 'high' ? 'text-cyber-orange' : actor.risk_level === 'medium' ? 'text-cyber-yellow' : 'text-cyber-green';
+              const riskColor = actor.risk_level === 'CRITICAL' ? 'text-cyber-red' : actor.risk_level === 'HIGH' ? 'text-cyber-orange' : actor.risk_level === 'MEDIUM' ? 'text-cyber-yellow' : 'text-cyber-green';
               return (
                 <Link key={actor.id} href={`/actors/${actor.id}`} className="flex items-center gap-4 p-3 rounded-lg hover:bg-dark-700/30 transition-colors group">
                   <div className="w-10 h-10 rounded-lg bg-dark-700/50 border border-dark-600/30 flex items-center justify-center shrink-0 group-hover:border-cyber-blue/20 transition-colors">

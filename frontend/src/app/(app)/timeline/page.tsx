@@ -4,10 +4,10 @@ import { useEffect, useState, useMemo, useCallback, useRef } from 'react';
 import { apiFetch, ensureAuth } from '@/lib/api';
 import {
   Clock, User, Eye, Key, Wallet, Globe, Link2, Shield,
-  AlertTriangle, Search, Filter, Calendar, ArrowDown,
+  AlertTriangle, Search, Filter, Calendar, ArrowDown, BarChart3,
 } from 'lucide-react';
 import {
-  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell,
+  BarChart as RechartsBarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell,
 } from 'recharts';
 import type { TimelineEvent, Actor } from '@/types';
 
@@ -45,11 +45,13 @@ export default function TimelinePage() {
     try {
       const [ev, ac] = await Promise.all([
         apiFetch<TimelineEvent[]>('/api/v1/intelligence/timeline?limit=200'),
-        apiFetch<Actor[]>('/api/v1/actors/?limit=100'),
+        apiFetch<Actor[]>('/api/v1/actors/?limit=50'),
       ]);
       setEvents(ev);
       setActors(ac);
-    } catch { /* ignore */ }
+    } catch (e) {
+      console.error('Failed to load timeline:', e);
+    }
   }, []);
 
   useEffect(() => {
@@ -287,13 +289,13 @@ export default function TimelinePage() {
       {chartData.length > 0 && (
         <div className="glass-card">
           <div className="flex items-center gap-2 mb-4">
-            <BarChart className="w-4 h-4 text-cyber-green" />
+            <BarChart3 className="w-4 h-4 text-cyber-green" />
             <h3 className="text-xs font-medium text-gray-400 uppercase tracking-wider">
               Event Type Breakdown
             </h3>
           </div>
           <ResponsiveContainer width="100%" height={180}>
-            <BarChart data={chartData}>
+            <RechartsBarChart data={chartData}>
               <XAxis
                 dataKey="label"
                 tick={{ fill: '#6b7280', fontSize: 10 }}
@@ -315,7 +317,7 @@ export default function TimelinePage() {
                   <Cell key={i} fill={entry.fill} />
                 ))}
               </Bar>
-            </BarChart>
+            </RechartsBarChart>
           </ResponsiveContainer>
         </div>
       )}

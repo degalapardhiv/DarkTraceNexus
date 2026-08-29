@@ -252,7 +252,12 @@ export default function ReportsPage() {
                           <span className="text-sm text-gray-200 truncate">{actor.name}</span>
                         </div>
                         <div className="flex items-center gap-2 flex-shrink-0">
-                          <span className={`text-[10px] font-medium uppercase ${riskBadgeClass(actor.risk_level).replace('badge-', 'text-')}`}>
+                          <span className={`text-[10px] font-medium uppercase ${
+                            actor.risk_level?.toUpperCase() === 'CRITICAL' ? 'text-cyber-red' :
+                            actor.risk_level?.toUpperCase() === 'HIGH' ? 'text-cyber-orange' :
+                            actor.risk_level?.toUpperCase() === 'MEDIUM' ? 'text-cyber-yellow' :
+                            'text-cyber-green'
+                          }`}>
                             {actor.risk_level}
                           </span>
                           <span className="text-[10px] font-mono text-gray-500">#{actor.id}</span>

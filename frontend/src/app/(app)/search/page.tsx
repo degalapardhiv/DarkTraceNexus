@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { apiFetch, ensureAuth } from '@/lib/api';
 import {
   Search as SearchIcon, Users, Tag, Key, Wallet, Globe, ChevronRight,
@@ -32,6 +32,8 @@ export default function SearchPage() {
   const [results, setResults] = useState<SearchResult[]>([]);
   const [loading, setLoading] = useState(false);
   const [searched, setSearched] = useState(false);
+
+  useEffect(() => { ensureAuth(); }, []);
 
   const handleSearch = async () => {
     if (!query.trim()) return;
