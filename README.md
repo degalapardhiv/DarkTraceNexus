@@ -134,7 +134,7 @@ darktrace-nexus/
 | B. SREE KRISHNA GOWTHAM | Team Lead & System Architect |
 | P. YUGANDHAR | AI/ML & Behavioral Analysis |
 | C. SEETHA RAMADEVI | Frontend, Backend & Visualization |
-| C. Satyadev | Graph Analytics & Data Engineering |
+| C. SATYADEV | Graph Analytics & Data Engineering |
 | A. SIRICHANDANA | Cyber Threat Intelligence & Attribution |
 
 ---
